@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <title>Bootstrap Example</title>
     <meta charset="utf-8" />
@@ -29,17 +30,17 @@
        crossorigin="anonymous"
      ></script>
 
+
   </head>
   <body>
 
     <section id="main-header">
 
-
      <!-- JUMBOTRON -->
       <div class="jumbotron text-center" style="margin-bottom: 0">
         <div class="row">
           <div class="col">
-            <a href="#header" class="home-btn"
+            <a href="#main-header" class="home-btn"
               ><i class="fa-solid fa-leaf"></i></i>agrotech</a
             >
           </div>
@@ -70,7 +71,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#about-us">Mission, Vision, Core Values</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Our Story</a>
+                <a class="dropdown-item" href="#our-story">Our Story</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">What makes us different?</a>
                 <div class="dropdown-divider"></div>
@@ -123,13 +124,7 @@
         </div>
       </nav>
 
-
-     
-  
-
-    <div class="container title">
-
-
+      <div class="container title">
               <h1 class="tag">
                 <bold>SUSTAINABLE INVESTING</bold>  <br />
                 <strong>agro<i class="fa-solid fa-seedling"></i>ech ventures</strong>
@@ -138,26 +133,28 @@
               <a href="" class="rounded agriproj-btn"><span class="projectport">EXPLORE OUR PROJECT PORTFOLIO</span></a>
               <br>
               <br>
-              <a href="" class="angle-down"><i class="fa-solid fa-angle-down"></i></a>    
-    </div>    
-    </section>
+              <a href="#about-us" class="angle-down"><i class="fa-solid fa-angle-down"></i></a>    
+      </div>    
+  </section>
 
       <!--------Page 2 Landing Page------>
 
-        <section id="about-us">
+  <section id="about-us">
 
-          <!------------------about-us CONTAINER------------------------>
-          <div class="container text-center mt-5 about-us-page">
-             <!-----------------------about-us TITLE PAGE---------------------->
-             <div class="row">
-              <div class="col mb-2 agro-btn">
-                <a href="#main-header" class="active"
+      <!------------------about-us CONTAINER------------------------>
+      <div class="container text-center mt-5 about-us-page">
+      <!-----------------------about-us TITLE PAGE---------------------->
+        <div class="row">
+          <div class="col mb-2 agro-btn">
+            <a href="#main-header" class="active-btn"
                   ><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
                 >
                 <hr>
-              </div>
-            </div>
-            <div class="row about-us">
+          </div>
+        </div>
+
+
+        <div class="row about-us">
               <div class="col about-title"> 
                 <h1 class="about-us-title">WHO WE ARE?</h1>
               </div>
@@ -165,24 +162,25 @@
             </div>
 
             <div class="card-deck">
+
               <div class="card">
                 <img class="card-img-top" src="images/mvback.jpeg" alt="Card image cap">
                 <div class="card-body">
                   <h1><i class="fa-brands fa-envira"></i></h1>
-                  <h5 class="card-title text-success">OUR MISSION</h5>
-                  <p class="card-text text-black-50">To give every <strong>FILIPINO</strong> the opportunity to invest in a <strong> GREEN and SUSTAINABLE AGRITECH</strong> initiatives</p>
+                  <h5 class="card-title text-success mission">OUR MISSION</h5>
+                  <p class="card-text mission-statement">To give every <strong>FILIPINO</strong> the opportunity to invest in a <strong> GREEN and SUSTAINABLE AGRITECH</strong> initiatives</p>
                 </div>
 
-                
                 <div class="card-footer">
                   <small class="text-muted">WE EMPOWER.</small>
                 </div>
               </div>
+
               <div class="card">
                 <img class="card-img-top" src="images/diversity.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title text-success">OUR COMMUNITY</h5>
-                  <p class="card-text text-black-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident enim dolorem, assumenda molestias quos id obcaecati eaque doloribus fugiat eius sed nostrum, temporibus nobis fugit natus commodi quaerat possimus voluptatem?</p>
+                  <h5 class="card-title text-success community">OUR COMMUNITY</h5>
+                  <p class="card-text community-statement">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident enim dolorem, assumenda molestias quos id obcaecati eaque doloribus fugiat eius sed nostrum, temporibus nobis fugit natus commodi quaerat possimus voluptatem?</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">WE COLLABORATE.</small>
@@ -192,8 +190,8 @@
                 <img class="card-img-top" src="images/Final-Vision.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h1><i class="fa-brands fa-envira"></i></h1>
-                  <h5 class="card-title text-success">OUR VISION</h5>
-                  <p class="card-text text-black-50">To <strong class="empha">INTENSIFY and BOOST</strong> <strong>PHILIPPINE'S AGRICULTURE INDUSTRY</strong>  by <strong>HELPING FARMERS DEVELOP MODERN AND INDUSTRIAL FARMING METHODS and PRACTICES</strong></p>
+                  <h5 class="card-title text-success vision">OUR VISION</h5>
+                  <p class="card-text vision-statement">To <strong class="empha">INTENSIFY and BOOST</strong> <strong>PHILIPPINE'S AGRICULTURE INDUSTRY</strong>  by <strong>HELPING FARMERS DEVELOP MODERN AND INDUSTRIAL FARMING METHODS and PRACTICES</strong></p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">WE BUILD.</small>
@@ -211,14 +209,13 @@
      
           <!-------------------about-us CORE VALUES------------------>
        
-          <div class="container our-story">
+          <div class="container our-story" id="our-story">
 
             <div class="card mb-3">
-              <img class="card-img-top" src="images/ourstory.jpg" alt="Card image cap">
+              <img class="card-img-top img-story" src="images/ourstory.jpg" alt="Card image cap">
               <div class="card-body">
-
-                <h1 class="card-title text-success text-center text-break about-us-story">OUR STORY</h1>
                 <h1 class="text-center"><i class="fa-brands fa-pagelines"></i></h1>
+                <h1 class="card-title text-center text-break about-us-story"> OUR STORY</h1>
                 <hr>
                 <p class="card-text ourstory">The best thing about growing up on a farm is having so much space. The community is smaller and closer, and I feel connected to nature. Plus, there’s no traffic jams and no neighbours to complain about a noisy party!
           
@@ -232,8 +229,8 @@
                     
                     I often see farmers who are stressed and worried about how long the drought has gone on for. I’m keen to see them do the best thing in an agronomic sense, such as using the best herbicide for a job. That said, often farmers have to make compromises due to financial pressures.</p>
                   <p class="ourstory">I’m passionate about helping farmers to look at sustainable and productive farming systems. In Australia, the most sustainable practices are likely to be the most productive ones in the long term. For the most part, farmers do things to the best of their capabilities. (Different farmers are limited in different ways.) Farmers should learn and observe as much as they can and do whatever they think suits their situation.</p>
-    
-                <p class="card-text text-center"><small class="text-muted">We always STRIVE FOR EXCELLENCE.</small></p>
+                <hr>
+                <h4 class="card-text text-center text-success">We always STRIVE FOR EXCELLENCE.</h4>
               </div>
             </div>
           </div>
@@ -248,7 +245,7 @@
       <div class="jumbotron text-center" style="margin-bottom: 0">
         <div class="row">
           <div class="col">
-            <a href="#header" class="different-btn"
+            <a href="#main-header" class="different-btn"
               ><i class="fa-solid fa-leaf"></i></i>agrotech</a
             >
           </div>
@@ -257,8 +254,8 @@
 
       <div class="usp-title">
 
-        <h1>What makes us DIFFERENT?</h1>
-        <h3>We are a modern company with long history.</h3>
+        <h1 class="diff-title">What makes us DIFFERENT?</h1>
+        <h3 class="diff-tag">We are a modern company with long history.</h3>
 
       </div>
 
@@ -270,7 +267,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted text-center"><i class="fa-brands fa-pagelines"></i></small>
+            <small class="text-muted">&nbsp</small>
           </div>
         </div>
         <div class="card uspt">
@@ -280,7 +277,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted text-center"><i class="fa-brands fa-pagelines"></i></small>
+            <small class="text-muted">&nbsp</small>
           </div>
         </div>
         <div class="card uspt">
@@ -290,7 +287,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted text-center"><i class="fa-brands fa-pagelines"></i></small>
+            <small class="text-muted">&nbsp</small>
           </div>
         </div>
         <div class="card uspt">
@@ -300,13 +297,140 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted text-center"><i class="fa-brands fa-pagelines"></i></small>
+            <small class="text-muted">&nbsp</small>
           </div>
       </div>
 
-
-
     </section>
+
+      <!----------------start of What our investors say----------------->
+
+      <section id="testimonials">
+
+        <div class="jumbotron text-center mt-5" style="margin-bottom: 0">
+          <div class="row">
+            <div class="col">
+              <a href="#header" class="different-btn"
+                ><i class="fa-solid fa-leaf"></i></i>agrotech</a
+              >
+            </div>
+          </div>
+        </div>
+  
+        <div class="usp-title">
+  
+          <h1 class="diff-title">What our INVESTORS say?</h1>
+          <h3 class="diff-tag">YOU MATTER in our MISSION.</h3>
+  
+        </div>
+
+        <div class="slideshow-container">
+
+          <!-- Full-width slides/quotes -->
+          <div class="mySlides">
+            
+             <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+             <img src="images/testi-icons.png" alt="">
+          </div>
+        
+          <div class="mySlides">
+            <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+            <img src="images/testi-icon2.png" alt="">
+          </div>
+        
+          <div class="mySlides">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+            <p class="author">- Thomas A. Edison</p>
+            <img src="images/testi-icon3.png" alt="">
+          </div>
+
+          <div class="mySlides">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+            <p class="author">- Thomas A. Edison</p>
+            <img src="images/testi-4.png" alt="">
+          </div>
+        
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+      </section>
+
+      <!----------------END OF LANDING PAGE----------------->
+
+      <div id="break-page1"></div>
+      <div id="break-page"></div>
+      <div class="container-fluid end-page">
+        <div class="row last-page">
+          <div class="col slogan-tag">
+            <h1 class="text-center end-slogan">Start Venturing POTENTIAL HIGH-PROFIT AGRI-PROJECT INVESTMENTS.</h1>
+            <button class="end-button"> <a href="#">GET ACCESS NOW!</a> </button>
+          </div>
+        </div>
+      </div>
+
+      <section id="end">
+        <a href="#header" class="different-btn"
+                ><i class="fa-solid fa-leaf"></i></i>agrotech</a
+              >
+        
+        <div class="copyright">
+          <p> By using this site, you agree to our <a href="">Terms & Conditions and Privacy Policy</a>. 
+          <br>
+          <i class="fa-regular fa-copyright"></i> 2023 AGROTECH VENTURES. All rights reserved.
+          <br>
+          <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </p>
+        </div>
+
+      </section>
+
+
+
+
+      <script>
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        
+        </script>
+
+
 
     
 

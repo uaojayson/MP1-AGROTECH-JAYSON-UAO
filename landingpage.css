@@ -2,13 +2,13 @@
 
 *{
   margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
   }
   
   body, html{
   min-width: 100%;
-  height: 100%;
+  min-height: 100%;
   scroll-behavior: smooth;
  
 
@@ -16,8 +16,7 @@ font-family: 'Poppins', sans-serif;
   
   /* ------------The whole Page 1 ----------- */
   #main-header{
-
-  min-height: 100%;
+  min-height: 100vh;
   min-width: 100%;
   background-image: url(images/backgroundimage.jpg);
   background-position: center;
@@ -25,26 +24,16 @@ font-family: 'Poppins', sans-serif;
   background-size: cover;
   position: relative;
  color: #fff; 
-  
-  
   }
   
-  /* ------------ HOME ICON ----------- */
+  /* ------------ JUMBOTRON ----------- */
   .jumbotron{
-   text-align: center;
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: inherit;
   padding: 0.5%;
-  
-  
-  }
-  
-  .text{
-  text-align: right;
-  padding-top: 0.3%;
-  
 }
-  
+
   .home-btn{
   
   color: #e7f1e9;
@@ -59,166 +48,119 @@ font-family: 'Poppins', sans-serif;
   -0.03em 0.03em rgb(12, 119, 12),
   0.03em -0.03em rgb(12, 119, 12),
   0.03em 0.03em rgb(12, 119, 12);
-transition: 0.5s;
-  
+  transition: 0.5s;
   }
-  
   .home-btn:hover{
     color: white;
   font-size: 23px;
   }
 
-  .form-inline{
-    float: right;
-  }
-  
     /* ------------ title area----------- */
 
+.title{
+  border: "";
+  text-align: center;
+  padding: 4.6%;
+}
+.tag{
+  text-shadow:
+  0.03em 0 green,
+  0 0.03em green,
+  -0.03em 0 green,
+  0 -0.03em green,
+  -0.03em -0.03em green,
+  -0.03em 0.03em green,
+  0.03em -0.03em green,
+  0.03em 0.03em green; 
+}
 
+.tag bold{
+  font-size: 35px;
+  font-weight: 1000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
+ }
 
-    .title{
-      border: "";
-      text-align: center;
-      padding: 4.6%;
-      
-      
-    }
-    
-    .tag{
-    
-      font-size: 40px;
-    text-shadow:
-    0.03em 0 green,
-    0 0.03em green,
-    -0.03em 0 green,
-    0 -0.03em green,
-    -0.03em -0.03em green,
-    -0.03em 0.03em green,
-    0.03em -0.03em green,
-    0.03em 0.03em green;
-    
-    }
-  
-    .tag bold{
-  
-      font-size: 35px;
-      font-weight: 1000;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-shadow: 3px 4px 7px rgba(8, 86, 105, 0.8);
- 
-    }
+.tag strong{
+  color: #0fdf19;
+  font-size: 70px;
+  font-weight: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    .tag strong{
-    
-      color: #0fdf19;
-      font-size: 70px;
-      font-weight: 400px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-     
-    }
+.slogan{
+  padding-top: -1%;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+}
 
-    .slogan{
-      padding-top: -1%;
-      font-weight: 800;
-      font-size: 30px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
-    }
-
-
-
-    .agriproj-btn{
+.agriproj-btn{
       background-color:rgb(15, 158, 15);
       font-size: 20px;
       font-family: 'Roboto', sans-serif;
       color: #fff;
       padding: 1% 2%;
-      text-shadow:
-      0.04em 0 rgb(12, 119, 12),
-      0 0.04em rgb(12, 119, 12),
-      -0.04em 0 rgb(12, 119, 12),
-      0 -0.04em rgb(12, 119, 12),
-      -0.04em -0.04em rgb(12, 119, 12),
-      -0.04em 0.04em rgb(12, 119, 12),
-      0.04em -0.04em rgb(12, 119, 12),
-      0.04em 0.04em rgb(12, 119, 12);
       transition: 0.5s;
-    }
+}
 
-    .agriproj-btn:hover{
+.agriproj-btn:hover{
       text-decoration: none;
       font-weight: bold;
       border-radius: 2%;
       font-size: 23px;
       color: #fff;
       background-color: inherit;
-      text-shadow:
-      0.04em 0 rgb(12, 119, 12),
-      0 0.04em rgb(12, 119, 12),
-      -0.04em 0 rgb(13, 170, 13),
-      0 -0.04em rgb(12, 119, 12),
-      -0.04em -0.04em rgb(12, 119, 12),
-      -0.04em 0.04em rgb(12, 119, 12),
-      0.04em -0.04em rgb(12, 119, 12),
-      0.04em 0.04em rgb(12, 119, 12);
-    }
+      text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+}
 
     /* ------------ Navigation Area----------- */
+.navbar{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+  font-size: 19px;
+  transition: 0.5s;
+}
 
-    .navbar{
-      font-family: 'Roboto', sans-serif;
-      background-size: cover;
-      
-    }
+.navbar-brand:hover{
+  font-size: 22px;
+  font-weight: bold;
+}
 
-    .navbar-brand{
+.dropdown-toggle{
+  font-size: 19px;
+  transition: 0.5s;
+}
+    
+.dropdown-toggle:hover{
+  font-size: 21px;
+  font-weight: bold;
+}
 
-      font-size: 19px;
-      transition: 0.5s;
-    }
-
-    .navbar-brand:hover{
-      font-size: 22px;
-      font-weight: bold;
-
-
-    }
-
-    .dropdown-toggle{
-      font-size: 19px;
-      transition: 0.5s;
-      
-    }
-    .dropdown-toggle:hover{
-      font-size: 21px;
-      font-weight: bold;
-    }
-
-    .dropdown-menu{
-      
+.dropdown-menu{
       display: none;
       position: absolute;
       background-color:  rgb(15, 24, 153);
       min-width: 20vh;
       box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
-      z-index: 1;
-    }
-
-   .dropdown-item{
+     
+}
+.dropdown-item{
     color: #f8faf8;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    transition: 0.5s;
- }
+    transition: 0.5s; 
+}
 
- .dropdown-item:hover{
+.dropdown-item:hover{
   font-size: 17px;
   color: #055f18;
  }
 
- .btn{
+.btn{
   font-weight: 100px;
   border-color: #d6ecdb;
   color: #edf3ee;
@@ -238,32 +180,14 @@ transition: 0.5s;
   color: rgb(255, 255, 255);
   font-size: 40px;
   transition: 0.5s;
-  
- }
-
- .angle-down:hover{
+}
+.angle-down:hover{
   font-size: 45px;
   color: #08d312;
- }
+}
  
 
 
-
-
-/* ------------ Landing Page - Page 2----------- */
-
-#about-us{
-
-  min-height: 100%;
-  min-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
- color: #fff; 
-  
-  
-  }
 
   /* -----------------------PAGE 2 ABOUT US PAGE----------------------- */
 
@@ -272,36 +196,35 @@ transition: 0.5s;
   min-width: 100%;
   background-image: url(images/about-us.jpg);
   background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 1%;
+  color: #fff;
   
  
 }
 .about-us-page{
   font-family: 'Roboto', sans-serif;
   background-color: inherit;
-  
   color: white;
   padding-top: -15%;
   padding-left: 1%%;
   padding-right: 1%;
   border: "";
-
-padding-top: -5%%;
-
 }
-
 .agro-btn{
   color: #fff;
   margin-top: -4%;
- 
 }
+
+/* ----------------this col tag will affect all col without class------------------ */
 
 .col{
   margin-left: 1%;
   text-align: center;
 }
 
-.active{
+.active-btn{
   color:   #3F9807;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -310,31 +233,18 @@ padding-top: -5%%;
   transition: 0.5s
 }
 
-.active:hover{
+.active-btn:hover{
   font-size: 23px;
   color: green;
 }
 
-
-.row .about-us-title{
-  margin-top: -1%;
+.about-us-title{
+  margin-top: 0%;
   font-size: 55px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ffffff;
   text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
-}
-
-.col-mission{
-  font-size: 20px;
-  font-weight: bold;
-  color: #0a8b10;
-}
-
-.col-vision{
-  font-size: 20px;
-  font-weight: bold;
-  color: #0a8b10;
 }
 
 h1 i{
@@ -342,43 +252,62 @@ h1 i{
 }
 
 .mission{
-  font-family: Arial, Helvetica, sans-serif;
-  color: green;
-  font-size: 15px;
-  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px; 
+}
+
+.mission-statement{
+  font-family: 'Roboto', sans-serif;
+  color: #040936;
+}
+
+.community{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px; 
+}
+
+.community-statement{
+  font-family: 'Roboto', sans-serif;
+  color: #040936;
 }
 
 .vision{
-  font-family: Arial, Helvetica, sans-serif;
-  color: green;
-  font-size: 15px;
-  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px; 
 }
+
+.vision-statement{
+  font-family: 'Roboto', sans-serif;
+  color: #040936;
+}
+
+.text-muted{
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .row .about-us-values{
   background-image: ""url(images/navbar.jpg)"";
+  font-weight: bold;
   margin-top: 3%;
   font-size: 48px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-size: cover;
-  color: #ffffff;
+  color: #ddf0f1;
   padding-top: 0.5%;
   padding-bottom: 4%;
-  text-shadow: 3px 4px 7px rgba(23, 57, 97, 0.8);
+  text-shadow: 3px 4px 7px rgba(14, 42, 75, 0.8);
 }
-.row .about-us-story{
-  margin-top: 4%;
+.about-us-story{
+  margin-top: 0%;
   font-size: 55px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #05863f;
+  color: #0bb853;
 }
-
-
 hr{
   color: #725438;
-
 }
-
 .our-story{
   padding-left: 1%;
   padding-right: 1%;
@@ -390,6 +319,10 @@ hr{
   text-align: justify;
 }
 
+p .story-tagline small{
+  font-size: 32px;
+}
+
 /* -----------------------PAGE 3 What Makes us Different US PAGE----------------------- */
 
 #different{
@@ -397,18 +330,12 @@ hr{
   min-width: 100%;
   background-image: url(images/about-us.jpg);
   background-size: contain;
-  
- 
 }
-
-.uspt{
-  box-shadow: 5px 10px #888888;
-}
-
 .different-btn{
-  color: white;
-  text-shadow: 3px 4px 7px rgba(12, 146, 30, 0.8);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:   #3F9807;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(99, 184, 110, 0.8);
   font-size: 21px;
   transition: 0.5s;
 }
@@ -420,6 +347,20 @@ hr{
   text-shadow: none;
 }
 
+.uspt{
+  box-shadow: 5px 10px #888888;
+  transition: 0.5s;
+}
+
+.uspt:hover{
+  color: white;
+  background: #2da54b;
+  transform: translateY(-10px);
+
+}
+
+
+
 .usp{
   padding-left: 10%;
   padding-right: 10%;
@@ -430,7 +371,156 @@ hr{
   padding-top: 0.5%;
 }
 
+.diff-title{
+  font-size: 324x;
+  font-weight: bold;
+}
+.diff-tag{
+  font-size: 22px;
+}
 
 
-/* -----------------------Footer----------------------- */
+
+
+
+/* -----------------------Page 4 Testimonial Page----------------------- */
+
+#testimonials{
+ height: 70vh;
+ width: 100%;
+ background-size: cover;
+ margin-bottom: 1%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-image: url(images/about-us.jpg);
+  border-radius: 0.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 1% 1%;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/* -----------------------END PAGE----------------------- */
+
+#break-page1{
+  min-height: 8vh;
+  width: 100%;
+  margin-top: 8%;
+  background-color: #127427;
+  background-size: cover;
+
+}
+
+
+.end-page{
+  height: 30vh;
+  width: 100%;
+  border: solid "";
+  background-image: url(images/about-us.jpg);
+  margin-bottom: 0%;
+}
+
+.end-slogan{
+  padding-top: -1%;
+  font-weight: bold;
+}
+.slogan-tag{
+  padding-top: 4%;
+ 
+}
+.end-button{
+  align-items: center;
+  padding: 1% 2%;
+  border-radius: 3%;
+  font-size: 24px;
+  color: white;
+  background-color: #e3ebe4;
+}
+
+
+/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+@media(max-width: 700px){
+  .last-page{
+    margin-top: 10%;
+  }
+    
+}
+
+#end{
+  background-color: #725438;
+  background-size: cover;
+  padding: 0.5%;
+  text-align: center;
+  color: white;
+
+}
 

@@ -169,6 +169,19 @@
   transition: 0.5s;
  }
 
+ a{
+  color: white;
+  transition: 0.5s;
+ }
+
+ a:hover{
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 20px;
+
+ }
+
  .btn:hover{
   font-weight: 100px;
   border-color: #fff;
@@ -227,7 +240,6 @@
 .active-btn{
   color:   #3F9807;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   font-size: 21px;
   margin-top: 0.5;
   transition: 0.5s
@@ -302,7 +314,7 @@ h1 i{
   margin-top: 0%;
   font-size: 55px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #0bb853;
 }
 hr{
@@ -331,18 +343,16 @@ p .story-tagline small{
   background-image: url(images/about-us.jpg);
   background-size: contain;
 }
+
 .different-btn{
-  color:   #3F9807;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(99, 184, 110, 0.8);
+  color: #12ad1a;;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   transition: 0.5s;
 }
 
 .different-btn:hover{
   color: rgb(11, 182, 11);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
   text-shadow: none;
 }
@@ -359,6 +369,11 @@ p .story-tagline small{
 
 }
 
+h5{
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #055f18;
+}
 
 
 .usp{
@@ -368,18 +383,22 @@ p .story-tagline small{
 
 .usp-title{
   text-align: center;
-  padding-top: 0.5%;
+  padding-top: 0%;
+  color: #725438;
+ 
 }
+
+
 
 .diff-title{
   font-size: 324x;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 .diff-tag{
   font-size: 22px;
+  font-family: 'Roboto', sans-serif;
 }
-
-
 
 
 
@@ -425,6 +444,12 @@ p .story-tagline small{
   user-select: none;
 }
 
+q{
+  font-size: 20px;
+}
+
+
+
 /* Position the "next button" to the right */
 .next {
   position: absolute;
@@ -468,7 +493,7 @@ q {font-style: italic;}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
 
-/* -----------------------END PAGE----------------------- */
+/* -----------------------BREAK PAGE----------------------- */
 
 #break-page1{
   min-height: 8vh;
@@ -479,6 +504,7 @@ q {font-style: italic;}
 
 }
 
+/* -----------------------END PAGE----------------------- */
 
 .end-page{
   height: 30vh;
@@ -499,11 +525,68 @@ q {font-style: italic;}
 .end-button{
   align-items: center;
   padding: 1% 2%;
-  border-radius: 3%;
-  font-size: 24px;
-  color: white;
-  background-color: #e3ebe4;
+  border-radius: 1.5%;
+  background-color: #09941c;
+  border: #08d312;
 }
+
+.end-btn{
+  color: #0fdf19;
+  font-size: 21px;
+  transition: 0.5s;
+}
+
+.end-btn:hover{
+  font-size: 23px;
+  color: #0fdf19;
+}
+
+.getaccess{
+  color: white;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.getaccess:hover{
+  font-size: 26px;
+  color: white;
+}
+
+.terms{
+  color: rgb(211, 220, 238); 
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.terms:hover{
+  font-size: 18px;
+  color: #08d312;
+
+}
+
+.social-icons{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(219, 219, 238);
+  transition: 0.5s;
+}
+
+.social-icons:hover{
+  font-size: 27px;
+  color: #08d312;
+
+}
+
+#end{
+  background-color: #725438;
+  background-size: cover;
+  padding: 0.5%;
+  text-align: center;
+  color: white;
+
+}
+
 
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
@@ -515,12 +598,4 @@ q {font-style: italic;}
     
 }
 
-#end{
-  background-color: #725438;
-  background-size: cover;
-  padding: 0.5%;
-  text-align: center;
-  color: white;
-
-}
 

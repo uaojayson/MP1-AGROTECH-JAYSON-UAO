@@ -17,53 +17,24 @@
     
     /* ------------The whole Page 1 ----------- */
     #main-header{
-    min-height: 100vh;
+    height: 45vh;
     min-width: 100%;
-    background-image: url(images/backgroundimage.jpg);
+    background-image: url(images/why-inv.webp);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-   color: #fff; 
+    color: #ffffff; 
     }
     
-    /* ------------ JUMBOTRON ----------- */
-    .jumbotron{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: inherit;
-    padding: 0.5%;
-  }
   
-    .home-btn{
-    
-    color: #e7f1e9;
-    font-size: 18px;
-    text-decoration: none;
-    text-shadow:
-    0.03em 0 rgb(12, 119, 12),
-    0 0.03em rgb(12, 119, 12),
-    -0.03em 0 rgb(12, 119, 12),
-    0 -0.03em rgb(12, 119, 12),
-    -0.03em -0.03em rgb(12, 119, 12),
-    -0.03em 0.03em rgb(12, 119, 12),
-    0.03em -0.03em rgb(12, 119, 12),
-    0.03em 0.03em rgb(12, 119, 12);
-    transition: 0.5s;
-    }
-    .home-btn:hover{
-      color: white;
-    font-size: 23px;
-    }
-  
-      /* ------------ title area----------- */
+ /* ------------ title area----------- */
   
   .title{
-    border: "";
     text-align: center;
-    padding: 4.6%;
+    padding: 8%;
   }
   .tag{
+    color: white;
     text-shadow:
     0.03em 0 green,
     0 0.03em green,
@@ -78,13 +49,13 @@
   .tag bold{
     font-size: 35px;
     font-weight: 1000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
    }
   
   .tag strong{
-    color: #0fdf19;
-    font-size: 70px;
+    color: white;
+    font-size: 50px;
     font-weight: 400px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -92,29 +63,12 @@
   .slogan{
     padding-top: -1%;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
   }
   
-  .agriproj-btn{
-        background-color:rgb(15, 158, 15);
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        color: #fff;
-        padding: 1% 2%;
-        transition: 0.5s;
-  }
-  
-  .agriproj-btn:hover{
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 2%;
-        font-size: 23px;
-        color: #fff;
-        background-color: inherit;
-        text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
-  }
+
   
       /* ------------ Navigation Area----------- */
   .navbar{
@@ -199,6 +153,224 @@
     font-size: 45px;
     color: #08d312;
   }
+
+  /* -----------------------PAGE 3 WHY INVEST PAGE----------------------- */
+
+#invest{
+    min-height: 100vh;
+    min-width: 100vh;
+  }
+  .investnow{
+    border: solid #b7d69e;
+    height: 100vh;
+    background-color: #A88D66;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 0.5%;
+  
+ 
+  }
+  
+  .why-invest{
+    text-align: center;
+    font-size: 38px;
+    border: "";
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:   rgb(240, 248, 240);
+  }
+
+  .explore-reason{
+    color: #e2d8ca;
+    text-align: center;
+    font-size: 24px;
+    border: "";
+    font-weight: bold;
+  }
+
+  .image{
+    border: ""solid green"";
+  }
+  
+
+
+  .invest-list{
    
+  
+
+  }
+  
+  .invest{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+  .invest img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    height: 30vh;
+  }
+
+  .reason{
+    text-align: center;
+   
+  }
+  
+  .layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #33d47c);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    transition: height 0.5s;
+  }
+  
+  .layer p{
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  .layer h3{
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  
+  }
+  
+  .layer a{
+      margin-top: 20px;
+      color: #ff004f;
+      text-decoration: none;
+      font-size: 20px;
+      line-height: 60px;
+      background: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      text-align: center;
+  
+  }
+  
+  .invest:hover img{
+    transform: scale(1.1);
+  }
+  
+  .invest:hover .layer{
+    height: 100%;
+  
+  }
+  
+  .btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+  
+  }
+   
+  /* -----------------------END PAGE----------------------- */
+
+.end-page{
+    height: 30vh;
+    width: 100%;
+    border: solid "";
+    background-image: url(images/about-us.jpg);
+    margin-bottom: 0%;
+  }
+  
+  .end-slogan{
+    padding-top: 1.1%;
+    font-weight: bold;
+  }
+  .slogan-tag{
+    padding-top: 4%;
+   
+  }
+  .end-button{
+    align-items: center;
+    padding: 1% 2%;
+    border-radius: 1.5%;
+    background-color: #09941c;
+    border: #08d312;
+  }
+  
+  .end-btn{
+    color: #0fdf19;
+    font-size: 21px;
+    transition: 0.5s;
+  }
+  
+  .end-btn:hover{
+    font-size: 23px;
+    color: #0fdf19;
+  }
+  
+  .getaccess{
+    color: green;
+    padding-top: 0%;
+    font-size: 28px;
+    transition: 0.5s;
+    text-align: center;
+  }
+  
+  .getaccess:hover{
+    font-size: 30px;
+    color: #08750d;
+    
+  }
+  
+  .terms{
+    color: rgb(211, 220, 238); 
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  
+  .terms:hover{
+    font-size: 18px;
+    color: #08d312;
+  
+  }
+  
+  .social-icons{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(219, 219, 238);
+    transition: 0.5s;
+  }
+  
+  .social-icons:hover{
+    font-size: 27px;
+    color: #08d312;
+  
+  }
+  
+  #end{
+    background-color: #725438;
+    background-size: cover;
+    padding: 0.5%;
+    text-align: center;
+    color: white;
+  
+  }
   
   

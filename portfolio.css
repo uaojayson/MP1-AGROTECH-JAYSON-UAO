@@ -236,11 +236,11 @@ a:hover {
 }
 
 .project-1 {
-  border: 1px solid #ddd;
+  border: "1px solid #ddd";
 }
 
 .project-2 {
-  border: 1px solid #ddd;
+  border: "1px solid #ddd";
 }
 
 .img-project {
@@ -284,6 +284,10 @@ a:hover {
 .card-img-top {
   height: 50%;
   width: 100%;
+}
+
+.news {
+  margin: 3% 5%;
 }
 
 /* -----------------------END PAGE (NEWS AND UPDATES)----------------------- */

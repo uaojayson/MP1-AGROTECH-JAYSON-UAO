@@ -183,8 +183,11 @@ a:hover {
   border: "solid green";
   min-height: 80vh;
   min-width: 100vw;
-  margin-top: 0.1%;
+  margin-top: 0%;
   background-color: #06751e;
+  background-image: url(images/plain-bg-8.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .about-us-title {
@@ -255,8 +258,8 @@ h1 i {
   min-width: 100vw;
   min-height: 60%;
   border: "solid green";
-  margin-top: 0.1%;
-  background-image: url(images/about-us.jpg);
+  margin-top: 0%;
+  background-image: url(images/plain-bg-4.jpg);
   padding: 3% 5%;
 }
 
@@ -666,7 +669,7 @@ h1 i {
   min-height: 100%;
   border: "solid green";
   margin-top: 0.1%;
-  background-image: url(images/navbar.jpg);
+  background-image: url(images/navbar3.jpg);
   background-size: cover;
   padding: -2% 3%;
 }
@@ -703,7 +706,7 @@ h1 i {
   min-width: 100vw;
   min-height: 100%;
   border: "solid green";
-  margin-top: -0.8%;
+  margin-top: -0.96%;
   background-image: url(images/navbar2.jpg);
   background-size: cover;
   background-position: center;
@@ -716,6 +719,10 @@ h1 i {
 
   text-align: right;
   margin-top: 0.5%;
+}
+
+.foot-note-2 {
+  line-height: 0.5;
 }
 
 .f-title {

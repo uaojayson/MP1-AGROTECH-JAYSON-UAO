@@ -149,9 +149,10 @@ a:hover {
   min-width: 100vw;
   min-height: 100%;
   border: "solid green";
-  margin-top: 0.5%;
+  margin-top: 0%;
   background-image: "url(images/about-us.jpg)";
   padding: 2% 3%;
+  background-image: url(images/about-us.jpg);
 }
 
 .farmfish-title-page {
@@ -167,6 +168,11 @@ a:hover {
 
 .farmfish-1 {
   border: solid rgb(255, 255, 255);
+  border: 0.5px solid #f0ecec;
+}
+
+.farmfish-2 {
+  border: 0.5px solid #eee8e8;
 }
 
 .img-farmfish {
@@ -212,11 +218,11 @@ a:hover {
   min-width: 100vw;
   min-height: 100%;
   border: "solid green";
-  margin-top: 0.5%;
-  background-image: "url(images/about-us.jpg)";
-  padding: 2% 3%;
-  background-color: #486cbb;
-  color: white;
+  margin-top: 0%;
+  background-image: "url(images/about-us.jpg);
+
+  background-color: white;
+  color: #000000;
 }
 
 .project-title-page {
@@ -225,13 +231,17 @@ a:hover {
   font-size: 50px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
+  color: #079937;
   text-shadow: 3px 4px 7px rgba(178, 226, 210, 0.8);
-  padding-top: 0%;
+  padding-top: 2%;
 }
 
 .project-1 {
-  border: solid rgb(255, 255, 255);
+  border: 1px solid #ddd;
+}
+
+.project-2 {
+  border: 1px solid #ddd;
 }
 
 .img-project {
@@ -270,6 +280,14 @@ a:hover {
 }
 
 /* -----------------------END PAGE (Our Projects)----------------------- */
+
+/* -----NEWS AND UPDATES---- */
+.card-img-top {
+  height: 50%;
+  width: 100%;
+}
+
+/* -----------------------END PAGE (NEWS AND UPDATES)----------------------- */
 
 /* -----CALL TO ACTION---- */
 

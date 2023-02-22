@@ -219,20 +219,19 @@ a:hover {
   min-height: 100%;
   border: "solid green";
   margin-top: 0%;
-  background-image: "url(images/about-us.jpg);
-
-  background-color: white;
-  color: #000000;
+  background-image: url(images/plain-bg-8.jpg);
+  background-size: cover;
+  background-color: center;
+  color: #ffffff;
 }
 
 .project-title-page {
-  margin-top: 1%;
+  margin-top: 0%;
   margin-bottom: 1%;
   font-size: 50px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #079937;
-  text-shadow: 3px 4px 7px rgba(178, 226, 210, 0.8);
+  color: #ffffff;
   padding-top: 2%;
 }
 
@@ -296,7 +295,7 @@ a:hover {
   min-height: 100%;
   border: "solid green";
   margin-top: 0.1%;
-  background-image: url(images/navbar.jpg);
+  background-image: url(images/navbar3.jpg);
   background-size: cover;
   padding: -2% 3%;
 }

@@ -94,29 +94,24 @@ a:hover {
   font-size: 45px;
   color: #08d312;
 }
-
 /* ------------The whole Page 1 ----------- */
-#main-header {
-  height: 45vh;
-  min-width: 100%;
-  background-image: url(images/why-inv.webp);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: #ffffff;
-}
 
 /* ------------ title area----------- */
 
 .title {
+  height: 45vh;
+  min-width: 100vw;
+  background-image: url(images/Agricultural-investments.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+  padding: 7%;
   text-align: center;
-  padding: 8%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .tag {
   color: white;
-  text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green, 0 -0.03em green,
-    -0.03em -0.03em green, -0.03em 0.03em green, 0.03em -0.03em green,
-    0.03em 0.03em green;
 }
 
 .tag bold {
@@ -143,17 +138,13 @@ a:hover {
 
 /* -----------------------PAGE 3 WHY INVEST PAGE----------------------- */
 
-#invest {
-  min-height: 100vh;
-  min-width: 100vh;
-}
-.investnow {
-  border: solid #b7d69e;
-  height: 100vh;
-  background-color: #a88d66;
-  padding-right: 2%;
-  padding-left: 2%;
-  margin-top: 0.5%;
+.invest-page {
+  min-width: 100vw;
+  min-height: 60%;
+  border: "solid green";
+  margin-top: 0%;
+  background-image: url(images/plain-bg-4.jpg);
+  padding: 3% 5%;
 }
 
 .why-invest {
@@ -162,36 +153,89 @@ a:hover {
   border: "";
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(240, 248, 240);
+  color: rgb(255, 255, 255);
+  margin-top: 0%;
 }
 
 .explore-reason {
-  color: #e2d8ca;
+  color: #ffffff;
   text-align: center;
   font-size: 24px;
   border: "";
   font-weight: bold;
+  margin-bottom: 2%;
 }
 
-.image {
-  border: "" solid green "";
-}
-
-.invest-list {
-}
-
-.invest {
+.invest-1 {
+  padding: 0%;
+  background-color: #098d2a;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  transition: 0.5s;
 }
 
-.invest img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
+.invest-2 {
+  background-color: #a88d66;
+  padding-top: 3%;
+}
+
+.imginvest {
+  height: 80%;
+  width: 70%;
+  margin-top: 8.5%;
+  margin-bottom: 5%;
+  border-radius: 1%;
   transition: transform 0.5s;
-  height: 30vh;
+}
+
+.invest-title {
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
+}
+
+.invest-tag {
+  color: rgb(224, 245, 224);
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 105, 11, 0.8);
+}
+
+.invest-content {
+  padding: 2%;
+  font-size: 18px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
+}
+
+.invest-end-tag {
+  padding-top: 1%;
+  color: rgb(252, 252, 252);
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(2, 66, 5, 0.8);
+}
+
+.invest-btn {
+  background-color: #098d2a;
+  border: #08d312;
+  border-radius: 3%;
+  padding: 1% 1.5%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.invest-1:hover img {
+  transform: scale(1.1);
+}
+
+.invest-1:hover .layer {
+  height: 100%;
 }
 
 .reason {
@@ -242,21 +286,80 @@ a:hover {
   text-align: center;
 }
 
-.invest:hover img {
-  transform: scale(1.1);
+/* -----------------------END WHY INVEST PAGE----------------------- */
+
+/* -----CALL TO ACTION---- */
+
+.calltoaction-page {
+  min-width: 100vw;
+  min-height: 100%;
+  border: "solid green";
+  margin-top: 0.1%;
+  background-image: url(images/navbar3.jpg);
+  background-size: cover;
+  padding: -2% 3%;
 }
 
-.invest:hover .layer {
-  height: 100%;
+.jumbotron {
+  margin: 1%;
+  background-color: inherit;
+  color: white;
 }
 
-.btn {
-  display: block;
-  margin: 50px auto;
-  width: fit-content;
-  border: 1px solid #ff004f;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #fff;
+.h1 {
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
+
+.lead {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+}
+
+.btn-info {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+}
+
+/* -----FOOTER--- */
+
+.footer-page {
+  min-width: 100vw;
+  min-height: 100%;
+  border: "solid green";
+  margin-top: -0.96%;
+  background-image: url(images/navbar2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2% 2%;
+  color: white;
+}
+
+.foot-note {
+  border: "solid white";
+
+  text-align: right;
+  margin-top: 0.5%;
+}
+
+.foot-note-2 {
+  line-height: 0.7;
+}
+
+.f-title {
+  text-align: right;
+  font-size: 18px;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+}
+
+.ft {
+  text-align: right;
+  font-size: 15px;
+}
+
+/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */

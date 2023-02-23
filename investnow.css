@@ -288,6 +288,102 @@ a:hover {
 
 /* -----------------------END WHY INVEST PAGE----------------------- */
 
+/* -----------------------PAGE - HOW IT WORKS----------------------- */
+
+.how-page {
+  min-width: 100vw;
+  min-height: 100%;
+  border: "solid green";
+  margin-top: 0%;
+  margin-bottom: 2%;
+  background-image: "url(images/plain-bg-4.jpg)";
+  padding-bottom: 3%;
+  border: solid rgb(255, 255, 255);
+}
+
+.how-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #055f18;
+  margin-top: 5%;
+}
+
+.how-tag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #055f18;
+  margin-top: 0.5%;
+}
+
+.steps-body {
+  padding-top: 2%;
+}
+
+.card-group {
+  justify-content: center;
+}
+
+.steps {
+  font-weight: bold;
+  color: #0d8d3e;
+  margin-top: 1.5%;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 360px;
+  height: 360px;
+  border: 1px solid #fcfffd;
+  margin-bottom: 3%;
+
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: rgb(8, 122, 52);
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+}
+
+/* -----------------------END HOW IT WORKS PAGE----------------------- */
+
 /* -----CALL TO ACTION---- */
 
 .calltoaction-page {

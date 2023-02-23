@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
-    <title>Bootstrap Example</title>
+    <title>AGROTECH VENTURES</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -13,163 +12,191 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-     <!--------CSS STylesheet------->
-     <link rel="stylesheet" href="b-loginform.css" />
+    <!--CSS STylesheet-->
+    <link rel="stylesheet" href="b-loginform.css" />
 
-     <!--------Google Fonts------->
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-     <link rel="preconnect" href="https://fonts.googleapis.com" />
-     <link
-       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Roboto:wght@400;700&display=swap"
-       rel="stylesheet"
-     />
- 
-     <!--------FONTAWESOME ICONS------>
-     <script
-       src="https://kit.fontawesome.com/3ce7f5ba6a.js"
-       crossorigin="anonymous"
-     ></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-
+    <!--FONTAWESOME ICONS-->
+    <script
+      src="https://kit.fontawesome.com/3ce7f5ba6a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
   <body>
-    <section id="main-header">
 
-        <!--------HOME ICON------>
-           <!-- JUMBOTRON -->
-      <div class="jumbotron text-center" style="margin-bottom: 0">
-        <div class="row">
-          <div class="col">
-            <a href="index.html" class="home-btn"
-              ><i class="fa-solid fa-leaf"></i></i>agrotech</a
-            >
-          </div>
-        </div>
-      </div>
-        <!--------NAVIGATION BAR------>
-   <!-- NAVIGATION BAR -->
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar fixed-top navbar-expand-xl navbar-light mb-5"   style="background-color: rgb(9, 17, 121);">
 
-   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(9, 17, 121);">
-
-    <a class="navbar-brand text-success ml-sm-5" href="index.html"><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
-      ></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ABOUT US
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#about-us">Mission, Vision, Core Values</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#our-story">Our Story</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#different">What makes us different?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#testimonials">What our INVESTORS say?</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            OUR PORTFOLIO
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Our FARMERS and FISHERS</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Our PROJECTS</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">News and Updates</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            INVEST NOW
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Why INVEST in Agriculture?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">HOW IT WORKS?</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            HELP CENTER
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Frequently Asked Questions</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Contact Us</a>
-          </div>
-        </li>
-      </ul>
-
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-1 search-bar" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success mr-sm-2 my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-      
-          <!--------LOG IN FORM------>
-
-    <div class="container">
-            
-            <div class="col welcome">
-                <div class="content-frame pt-3 text-center">
-                    <h2 class="text-color-4">WELCOME BACK!</h2>
-                    <hr>
-                    <form class="form-signin form-style" action="#">
-                        <div class="form-group float-label-control mt-3"> <input type="email" class="form-control empty" placeholder="Email Address" name="email" required>
-                            <label for="email">Email Address</label>
-                        </div>
-                        <div class="form-group float-label-control mt-2"> <input type="password" class="form-control empty" placeholder="Password" name="password" required>
-                            <label for="password">Password</label>
-                        </div>
-                        <hr>
-
-                        <div class="btn login">
-                            <button type="submit" class="btn login-btn">
-                              <strong>LOGIN</strong>
-                            </button>
-                          </div>
-                        </form>
-                    <div id="forgotpane">
-                        <p class="fpw"><a href="#">Forgot Password?</a></p>
-                        <p class="sign-up">Don't have an account?&nbsp<a href="a-signupform.html">Sign up here.</a></p>
-                    </div>
-                    <a href="#about-us" class="angle-down"><i class="fa-solid fa-angle-down"></i></a>
-                </div>
-                
+      <a class="navbar-brand text-success ml-sm-5" href="index.html"><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
+        ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABOUT US
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.html">Mission, Vision, Core Values</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html">Our Story</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html">What makes us different?</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html">What our INVESTORS say?</a>
             </div>
-        </div>
-    </section>
+          </li>
 
-    <div class="container-fluid end-page">
-      <div class="row last-page">
-        <div class="col slogan-tag">
-          <h1 class="text-center end-slogan">Start Venturing POTENTIAL HIGH-PROFIT AGRI-PROJECT INVESTMENTS. <br>
-             <a href="#" class="getaccess">GET ACCESS NOW!</a></h1>
-         
-        </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              OUR PORTFOLIO
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="portfolio.html">Our FARMERS and FISHERS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="portfolio.html">Our PROJECTS</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="portfolio.html">News and Updates</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              INVEST NOW
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="investnow.html">Why INVEST in Agriculture?</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="investnow.html">HOW IT WORKS?</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              HELP CENTER
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="helpcenter.html">Frequently Asked Questions</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="helpcenter.html">Contact Us</a>
+            </div>
+          </li>
+        </ul>
+        
+        
       </div>
+    </nav>
+
+    
+
+   <div class="container login-page" >
+            
+    <div class="col welcome">
+        <div class="content-frame pt-3 text-center">
+            <h2 class="text-color-4">WELCOME BACK!</h2>
+            <hr>
+            <form class="form-signin form-style" action="#">
+                <div class="form-group float-label-control mt-3"> <input type="email" class="form-control empty" placeholder="Email Address" name="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="form-group float-label-control mt-2"> <input type="password" class="form-control empty" placeholder="Password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <hr>
+
+                <div class="btn login">
+                    <button type="submit" class="btn login-btn">
+                      <strong>LOGIN</strong>
+                    </button>
+                  </div>
+                </form>
+            <div id="forgotpane">
+                <p class="fpw"><a href="#">Forgot Password?</a></p>
+                <p class="sign-up">Don't have an account?&nbsp<a href="a-signupform.html">Sign up here.</a></p>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+     
+
+
+    <!--CALL TO ACTION 1--> 
+
+ <div class="container-fluid text-center mt-5 calltoaction-page"> <!-- start div of call to action --> 
+
+  <div class="jumbotron">
+    <div class="container calltoaction">
+      <p class="h1">LEAVE NO ONE BEHIND.</p>
+      <p class="lead">TOGETHER, WE MOVE FORWARD TOWARDS A PROGRESSIVE AND SUSTAINABLE AGRICULTURAL COUNTRY.</p>
+    </div>
+  </div>
+
+  
+
+  
+</div> <!-- end div call to action--> 
+    
+  
+<!----------------END OF LANDING PAGE----------------->
+
+<!-- FOOTER--> 
+
+<div class="container-fluid text-center footer-page" id="testimonials"> <!-- start div of footer --> 
+
+<footer class="footer">
+  <div class="container foot-note">
+    <div class="row foot-note-2">
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h6 class="f-title">ABOUT US</h6>
+        <p class="ft"><a href="index.html">Our Mission, Vision, Values</a> </p>
+        <p class="ft"><a href="index.html">Our Story</a> </p>
+        <p class="ft"><a href="index.html">What Makes Us Different?</a> </p>
+        <p class="ft"><a href="index.html">What Our Investors Say?</a> </p>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h6 class="f-title">OUR PORTFOLIO</h6>
+        <p class="ft"><a href="portfolio.html">Our Farmers and Fishers</a> </p>
+        <p class="ft"><a href="portfolio.html">Our Projects</a> </p>
+     
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h6 class="f-title">INVEST NOW</h6>
+        <p class="ft"><a href="investnow.html">Why Invest In Agriculture?</a> </p>
+        <p class="ft"><a href="investnow.html">How It Works?</a> </p>
+     
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h6 class="f-title">HELP CENTER</h6>
+        <p class="ft"><a href="helpcenter.html">FAQs</a> </p>
+        <p class="ft"><a href="helpcenter.html">Contact Us</a> </p>
+      </div>
+
+
     </div>
 
+    <div class="dropdown-divider"></div>
 
-    <section id="end">
-      <a href="#main-header" class="end-btn"
-              ><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
-            >
-      
-      <div class="copyright">
-        <p> By using this site, you agree to our <a href="#" class="terms">Terms & Conditions and Privacy Policy</a>. 
+    <div class="row foot-note-3">
+      <div class="col-md col-sm col-xs-12 text-center">
+        <a href="index.html" class="end-btn"
+        ><i class="fa-solid fa-leaf"></i></i>agrotech ventures</a
+      >
+      <p> By using this site, you agree to our <a href="#" class="terms">Terms & Conditions and Privacy Policy</a>. 
         <br>
         <i class="fa-regular fa-copyright"></i> 2023 AGROTECH VENTURES. All rights reserved.
         <br>
@@ -179,10 +206,27 @@
         <a href="#" target="_blank" class="social-icons"><i class="fa-brands fa-linkedin"></i></a>
         </p>
       </div>
-
-    </section>
-
   
+
+
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+
+
+</div> <!-- end div footer--> 
+
+      
+
+
+
     
+
   </body>
 </html>

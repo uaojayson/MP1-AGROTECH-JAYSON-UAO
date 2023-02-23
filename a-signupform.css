@@ -111,13 +111,14 @@ label {
   font-size: 20px;
 }
 
-.login-btn {
+.login-button {
   color: white;
   font-weight: bold;
   transition: 0.5s;
+  font-size: 17px;
 }
 
-.login-btn:hover {
+.login-button:hover {
   color: white;
   font-weight: bold;
   font-size: larger;

@@ -169,6 +169,10 @@ a:hover {
 
 /* ------------ Farmers and Fishers----------- */
 
+.seasoned-experts {
+  background-image: "url(images/plain-bg-8.jpg)";
+}
+
 .farmfish-page {
   min-width: 100vw;
   min-height: 100%;

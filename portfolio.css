@@ -98,19 +98,21 @@ a:hover {
 /* -- Title Page-- */
 
 .title {
-  height: 60vh;
+  height: 70vh;
   min-width: 100vw;
   background-image: url(images/portfoliowebsite.webp);
   background-position: center;
+  background-size: cover;
   position: relative;
   color: #ffffff;
+  opacity: 0.9;
 }
 
 /* ------------ title area----------- */
 
 .title {
   text-align: center;
-  padding: 13%;
+  padding: 15%;
 }
 .tag {
   color: white;

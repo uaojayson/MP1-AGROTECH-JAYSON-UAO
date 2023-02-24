@@ -201,6 +201,7 @@ a:hover {
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
+  font-size: 17px;
 }
 
 .project-tag {
@@ -213,9 +214,14 @@ a:hover {
   border: #08d312;
   border-radius: 3%;
   padding: 0.5% 1.5%;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Verdana;
+  transition: 0.5s;
+}
+
+.usp-btn-text:hover {
+  font-size: 22px;
 }
 
 /* -----------------------END PAGE (Our Projects)----------------------- */

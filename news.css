@@ -139,12 +139,82 @@ body {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+a {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* Header/Blog Title */
+.header {
+  margin-top: 3%;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  padding: 30px;
+  font-size: 40px;
   text-align: center;
-  background: #ddd;
+  background-image: url(images/plain-bg-8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(229, 241, 234);
+  padding: 20px;
   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -154,4 +224,89 @@ body {
     width: 100%;
     padding: 0;
   }
+}
+
+/* -----CALL TO ACTION---- */
+
+.calltoaction-page {
+  border: "solid green";
+  margin-top: 0.1%;
+  background-size: cover;
+  padding: -2% 3%;
+}
+
+.jumbotron {
+  margin: 0%;
+  background-color: inherit;
+  color: white;
+  padding-top: 2%;
+}
+
+.h1 {
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+}
+
+.lead {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+}
+
+.btn-info {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+}
+
+/* -----FOOTER--- */
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background-image: url(images/navbar3.jpg);
+  margin-top: 40px;
+  border: "solid green";
+  background-image: url(images/navbar2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.footer-page {
+  min-width: 100vw;
+  min-height: 100%;
+  border: "solid green";
+  margin-top: -0.96%;
+  background-image: url(images/navbar2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2% 2%;
+  color: white;
+}
+
+.foot-note {
+  border: "solid white";
+
+  text-align: right;
+  margin-top: 0.5%;
+}
+
+.foot-note-2 {
+  line-height: 0.7;
+}
+
+.f-title {
+  text-align: right;
+  font-size: 18px;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+}
+
+.ft {
+  text-align: right;
+  font-size: 15px;
 }

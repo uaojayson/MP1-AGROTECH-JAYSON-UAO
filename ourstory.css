@@ -229,14 +229,14 @@ a:hover {
 }
 
 .farmfish-content {
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .farmfish-tag {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 

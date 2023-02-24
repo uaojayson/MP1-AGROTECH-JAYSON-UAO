@@ -145,73 +145,6 @@ a:hover {
 
 /* -----------------------END PAGE----------------------- */
 
-/* ------------ Farmers and Fishers----------- */
-
-.farmfish-page {
-  min-width: 100vw;
-  min-height: 100%;
-  border: "solid green";
-  margin-top: 0%;
-  background-image: "url(images/about-us.jpg)";
-  padding: 2% 3%;
-  background-image: url(images/about-us.jpg);
-}
-
-.farmfish-title-page {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #079937;
-  text-shadow: 3px 4px 7px rgba(178, 226, 210, 0.8);
-  padding-top: 0%;
-}
-
-.farmfish-1 {
-  border: solid rgb(255, 255, 255);
-  border: 0.5px solid #f0ecec;
-}
-
-.farmfish-2 {
-  border: 0.5px solid #eee8e8;
-}
-
-.img-farmfish {
-  height: 88%;
-  width: 50%;
-  border-radius: 50%;
-  margin-top: 3%;
-  border-radius: 3%;
-}
-
-.farmfish-name {
-  padding-top: 5%;
-  font-weight: bold;
-}
-
-.farmfish-content {
-  text-align: justify;
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.farmfish-tag {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.usp-btn {
-  background-color: #098d2a;
-  border: #08d312;
-  border-radius: 3%;
-  padding: 0.5% 1.5%;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /* -----------------------END PAGE (Farmers and Fishers)----------------------- */
 
 /* ------------ Our Projects----------- */
@@ -235,6 +168,11 @@ a:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ffffff;
   padding-top: 2%;
+}
+
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .project-1 {

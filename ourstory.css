@@ -117,9 +117,9 @@ a:hover {
 }
 
 .imgstory {
-  height: 75%;
+  height: 60%;
   width: 70%;
-  margin-top: 12%;
+  margin-top: 25%;
   margin-bottom: 0%;
   border-radius: 1%;
 }
@@ -145,6 +145,7 @@ a:hover {
   font-weight: 500;
   color: whitesmoke;
   text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
+  text-align: justify;
 }
 
 .story-end-tag {
@@ -171,6 +172,16 @@ a:hover {
 
 .seasoned-experts {
   background-image: "url(images/plain-bg-8.jpg)";
+}
+
+.profile {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profile-1 {
+  margin-left: 8%;
+  margin-right: 5%;
 }
 
 .farmfish-page {
@@ -213,7 +224,7 @@ a:hover {
 }
 
 .farmfish-name {
-  padding-top: 5%;
+  padding-top: 2%;
   font-weight: bold;
 }
 

@@ -61,7 +61,7 @@ html {
   font-weight: 100px;
   border-color: #d6ecdb;
   color: #edf3ee;
-  background-color: #0baa13;
+  background-color: #eef7ee;
   font-size: 17px;
   transition: 0.5s;
 }
@@ -158,6 +158,7 @@ a:hover {
   background-size: cover;
   background-color: center;
   color: #ffffff;
+  opacity: 0.95;
 }
 
 .project-title-page {
@@ -210,13 +211,14 @@ a:hover {
 }
 
 .usp-btn {
-  background-color: #098d2a;
-  border: #08d312;
-  border-radius: 3%;
-  padding: 0.5% 1.5%;
+  background-color: #b9e2c7;
+  border: #026122;
+  border-radius: 2%;
+  padding: 1% 1.5%;
   font-size: 20px;
   font-weight: bold;
   font-family: Verdana;
+  box-shadow: 0px 8px 16px 0px rgba(57, 167, 99, 0.2);
   transition: 0.5s;
 }
 
@@ -232,14 +234,14 @@ a:hover {
 }
 
 .usp-btn-text-1 {
-  color: #dbecdf;
+  color: #055718;
   font-size: 18px;
   font-weight: bold;
 }
 
 .usp-btn-text-1:hover {
   font-size: 20px;
-  color: #e1e9e3;
+  color: #046d1e;
 }
 
 /* -----------------------END PAGE (Our Projects)----------------------- */

@@ -660,6 +660,49 @@ h1 i {
 }
 /* ------testimonial  close-------*/
 
+/* Float four columns side by side */
+.section-1 {
+  float: left;
+  width: 25%;
+}
+
+.section-page {
+  justify-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .section-1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-image: url(images/plain-bg-8.jpg);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 50px;
+}
+
 /* -----------------------END PAGE----------------------- */
 
 /* -----CALL TO ACTION---- */

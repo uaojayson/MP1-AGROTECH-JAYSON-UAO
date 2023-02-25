@@ -90,16 +90,12 @@ a:hover {
 /* LOG IN FORM STYLING */
 
 .privacy-page {
-  height: 55vh;
+  min-height: 100%;
   width: 100%;
   margin-top: 8%;
   margin-bottom: 0%;
   font-weight: 400;
-}
-
-.privacy-content {
-  text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 
 /* -----CALL TO ACTION---- */

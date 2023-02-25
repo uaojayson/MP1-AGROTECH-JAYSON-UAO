@@ -90,11 +90,16 @@ a:hover {
 /* LOG IN FORM STYLING */
 
 .terms-page {
-  height: 55vh;
+  min-height: 100%;
   width: 100%;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 0%;
   font-weight: 400;
+  text-align: left;
+}
+
+.terms-title {
+  text-align: justify;
 }
 
 .privacy-content {

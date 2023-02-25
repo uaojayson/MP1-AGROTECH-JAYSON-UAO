@@ -46,9 +46,9 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.5s;
 }
 
@@ -62,20 +62,8 @@ html {
   border-color: #d6ecdb;
   color: #edf3ee;
   background-color: #0baa13;
-  font-size: 17px;
+  font-size: 18px;
   transition: 0.5s;
-}
-
-a {
-  color: white;
-  transition: 0.5s;
-}
-
-a:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 19px;
 }
 
 .btn:hover {
@@ -84,8 +72,6 @@ a:hover {
   color: #fff;
   font-size: 20px;
 }
-
-/* ------------The whole Page 1 ----------- */
 
 /* LOG IN FORM STYLING */
 
@@ -126,7 +112,7 @@ h2 {
 }
 
 label {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 4px 7px rgba(5, 68, 83, 0.8);
 }
@@ -163,14 +149,9 @@ a:hover {
   font-size: 18px;
 }
 
-.angle-down {
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  transition: 0.5s;
-}
-.angle-down:hover {
-  font-size: 45px;
-  color: #08d312;
+.terms {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* -----CALL TO ACTION---- */
@@ -179,7 +160,7 @@ a:hover {
   min-width: 100vw;
   min-height: 100%;
   border: "solid green";
-  margin-top: 0.1%;
+  margin-top: 0.98%;
   background-image: url(images/navbar3.jpg);
   background-size: cover;
   padding: -2% 3%;
@@ -192,10 +173,10 @@ a:hover {
 }
 
 .h1 {
-  font-size: 48px;
+  font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+  text-shadow: 3px 4px 7px rgba(1, 61, 41, 0.8);
 }
 
 .lead {
@@ -205,19 +186,13 @@ a:hover {
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
 
-.btn-info {
-  font-size: 25px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-}
-
 /* -----FOOTER--- */
 
 .footer-page {
   min-width: 100vw;
   min-height: 100%;
   border: "solid green";
-  margin-top: -0.98%;
+  margin-top: -0.93%;
   background-image: url(images/navbar2.jpg);
   background-size: cover;
   background-position: center;
@@ -226,7 +201,6 @@ a:hover {
 }
 
 .foot-note {
-  border: "solid white";
   text-align: right;
   margin-top: 0.5%;
 }
@@ -244,7 +218,13 @@ a:hover {
 
 .ft {
   text-align: right;
-  font-size: 12px;
+  font-size: 13px;
 }
 
-/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .login-page {
+    margin-top: 15%;
+    margin-bottom: 0%;
+  }
+}

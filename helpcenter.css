@@ -314,3 +314,10 @@ input[type="submit"]:hover {
   text-align: right;
   font-size: 13px;
 }
+
+/* Responsive layout  */
+@media screen and (max-width: 600px) {
+  .header {
+    margin-top: 15%;
+  }
+}

@@ -220,8 +220,26 @@ a:hover {
   transition: 0.5s;
 }
 
+.usp-btn-text {
+  color: #055f18;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .usp-btn-text:hover {
-  font-size: 22px;
+  font-size: 20px;
+  color: #098d2a;
+}
+
+.usp-btn-text-1 {
+  color: #dbecdf;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.usp-btn-text-1:hover {
+  font-size: 20px;
+  color: #e1e9e3;
 }
 
 /* -----------------------END PAGE (Our Projects)----------------------- */

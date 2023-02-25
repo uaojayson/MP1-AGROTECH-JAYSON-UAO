@@ -46,24 +46,15 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
   font-size: 17px;
   color: #055f18;
-}
-
-.btn {
-  font-weight: 100px;
-  border-color: #d6ecdb;
-  color: #edf3ee;
-  background-color: #0baa13;
-  font-size: 17px;
-  transition: 0.5s;
 }
 
 a {
@@ -76,13 +67,6 @@ a:hover {
   border-color: #fff;
   color: #fff;
   font-size: 19px;
-}
-
-.btn:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 20px;
 }
 
 .angle-down {
@@ -136,7 +120,7 @@ a:hover {
   font-weight: 800;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  text-shadow: 3px 4px 7px rgba(2, 56, 18, 0.8);
 }
 
 .slogan {
@@ -144,7 +128,7 @@ a:hover {
   font-weight: 800;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  text-shadow: 3px 4px 7px rgba(1, 49, 16, 0.8);
 }
 
 .agriproj-btn {
@@ -152,9 +136,9 @@ a:hover {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: #fff;
-
   padding: 0.5% 2%;
   transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .agriproj-btn:hover {
@@ -199,6 +183,10 @@ a:hover {
   color: #f1fcf9;
   text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
   padding-top: 3%;
+}
+
+.card {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 h1 i {
@@ -257,7 +245,6 @@ h1 i {
 .story-page {
   min-width: 100vw;
   min-height: 60%;
-  border: "solid green";
   margin-top: 0%;
   background-image: url(images/plain-bg-4.jpg);
   padding: 3% 5%;
@@ -266,11 +253,15 @@ h1 i {
 .story-1 {
   padding: 0%;
   background-color: #098d2a;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .story-2 {
   background-color: #a88d66;
   padding-top: 3%;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .imgstory {
@@ -282,26 +273,26 @@ h1 i {
 }
 
 .story-title {
-  color: rgb(255, 255, 255);
+  color: rgb(216, 238, 224);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
+  text-shadow: 3px 4px 7px rgba(4, 1, 22, 0.8);
 }
 
 .story-tag {
-  color: rgb(224, 245, 224);
+  color: rgb(238, 250, 244);
   font-size: 20px;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 105, 11, 0.8);
+  text-shadow: 3px 4px 7px rgba(57, 63, 57, 0.8);
 }
 
 .story-content {
   padding: 2%;
   font-size: 18px;
   font-weight: 500;
-  color: whitesmoke;
-  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 4px 7px rgba(124, 124, 128, 0.8);
 }
 
 .story-end-tag {
@@ -327,10 +318,10 @@ h1 i {
 .usellpro-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
   margin-top: 0%;
   background-image: url(images/about-us.jpg);
   padding: 2% 3%;
+  opacity: 0.95;
 }
 
 .usellpro-title-page {
@@ -341,15 +332,20 @@ h1 i {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #079937;
   text-shadow: 3px 4px 7px rgba(178, 226, 210, 0.8);
-  padding-top: 0%;
+  padding-top: 0% 10%;
+}
+
+.usellpro-content {
+  font-weight: bold;
 }
 
 .imgusellpro {
-  height: 80%;
+  height: 85%;
   width: 50%;
   border-radius: 50%;
   margin-top: 6%;
   border-radius: 3%;
+  box-shadow: inset 0px 5px 10px 0px rgba(39, 36, 36, 0.7);
 }
 
 .usellpro-1 {
@@ -365,26 +361,24 @@ h1 i {
 }
 
 .usellpro-title {
-  color: rgb(20, 139, 56);
+  color: #5c4229;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(182, 177, 221, 0.8);
 }
 
 .usellpro-tag {
-  color: rgb(46, 110, 46);
-  font-size: 20px;
+  color: rgb(18, 119, 32);
+  font-size: 18px;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(177, 199, 178, 0.8);
 }
 
 .usp-btn {
   background-color: #098d2a;
-  border: #08d312;
+  border: #05750a;
   border-radius: 3%;
   padding: 0.5% 1.5%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -394,8 +388,6 @@ h1 i {
 .testimonial-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
-
   margin-top: 0%;
   padding: 2% 3%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -414,6 +406,13 @@ h1 i {
 
 .testi-con {
   background-color: #9c7b5c;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.testi-con:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 .heading {
@@ -710,7 +709,6 @@ h1 i {
 .calltoaction-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
   margin-top: 0.1%;
   background-image: url(images/navbar3.jpg);
   background-size: cover;
@@ -740,7 +738,17 @@ h1 i {
 .btn-info {
   font-size: 25px;
   font-weight: bold;
+  padding-left: 1% 2%;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.btn-info:hover {
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----FOOTER--- */
@@ -748,8 +756,7 @@ h1 i {
 .footer-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
-  margin-top: -0.96%;
+  margin-top: -0.93%;
   background-image: url(images/navbar2.jpg);
   background-size: cover;
   background-position: center;
@@ -780,3 +787,15 @@ h1 i {
 }
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+/* Responsive layout  */
+@media screen and (max-width: 600px) {
+  .usellpro-content {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .usp-btn {
+    margin-bottom: 4%;
+  }
+}

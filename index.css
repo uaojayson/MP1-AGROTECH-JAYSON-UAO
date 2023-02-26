@@ -191,37 +191,49 @@ a:hover {
 }
 
 h1 i {
-  color: #21b629;
+  color: #066e0b;
 }
 
 .mission {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: green;
 }
 
 .mission-statement {
   font-family: "Roboto", sans-serif;
-  color: #040936;
+  color: #000000;
+  font-weight: 500;
+  text-align: justify;
 }
 
 .community {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: green;
 }
 
 .community-statement {
   font-family: "Roboto", sans-serif;
-  color: #040936;
+  color: #000000;
+  font-weight: 500;
+  text-align: justify;
 }
 
 .vision {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 600;
+  color: green;
 }
 
 .vision-statement {
   font-family: "Roboto", sans-serif;
-  color: #040936;
+  color: #000000;
+  font-weight: 500;
+  text-align: justify;
 }
 
 .text-muted {
@@ -294,6 +306,7 @@ h1 i {
   font-weight: 500;
   color: rgb(255, 255, 255);
   text-shadow: 3px 4px 7px rgba(124, 124, 128, 0.8);
+  text-align: justify;
 }
 
 .story-end-tag {
@@ -338,6 +351,7 @@ h1 i {
 
 .usellpro-content {
   font-weight: bold;
+  text-align: justify;
 }
 
 .imgusellpro {

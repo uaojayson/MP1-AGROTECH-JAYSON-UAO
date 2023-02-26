@@ -320,11 +320,12 @@ h1 i {
 .story-btn {
   background-color: #098d2a;
   border: #08d312;
-  border-radius: 3%;
-  padding: 1% 1.5%;
+  border-radius: 1.5%;
+  padding: 1% 2%;
   font-size: 16px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----------------------PAGE 4 What Makess Us Different?----------------------- */
@@ -390,12 +391,13 @@ h1 i {
 .usp-btn {
   background-color: #098d2a;
   border: #05750a;
-  border-radius: 3%;
-  padding: 0.5% 1.5%;
+  border-radius: 1.5%;
+  padding: 1% 2%;
   font-size: 18px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 2%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----------------------PAGE 5 Testimonials----------------------- */

@@ -89,7 +89,7 @@ a:hover {
 /* -- Title Page-- */
 
 .title {
-  height: 70vh;
+  height: 50vh;
   min-width: 100vw;
   background-image: url(images/portfoliowebsite.webp);
   background-position: center;
@@ -153,7 +153,7 @@ a:hover {
 }
 
 .project-title-page {
-  margin-top: 0%;
+  margin-top: 0.1%;
   margin-bottom: 1%;
   font-size: 50px;
   font-weight: bold;
@@ -254,6 +254,10 @@ a:hover {
 .news-updates {
 }
 
+.card-text {
+  font-size: 15px;
+}
+
 /* -----------------------END PAGE (NEWS AND UPDATES)----------------------- */
 
 /* -----CALL TO ACTION---- */
@@ -339,3 +343,144 @@ a:hover {
 }
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .title {
+    height: 70vh;
+    min-width: 100vw;
+    background-image: url(images/portfoliowebsite.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #ffffff;
+    opacity: 0.9;
+    margin-top: 3%;
+  }
+
+  /* ------------ title area----------- */
+
+  .title {
+    text-align: center;
+    padding-top: 70%;
+  }
+  .tag {
+    color: white;
+    text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green,
+      0 -0.03em green, -0.03em -0.03em green, -0.03em 0.03em green,
+      0.03em -0.03em green, 0.03em 0.03em green;
+  }
+
+  .tag bold {
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
+  }
+
+  .tag strong {
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .slogan {
+    padding-top: -1%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .project-title-page {
+    margin-top: 0.1%;
+    margin-bottom: 1%;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding-top: 2%;
+  }
+
+  .row {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+  }
+
+  .project-1 {
+    border: "1px solid #ddd";
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+    border-radius: 2%;
+  }
+
+  .project-2 {
+    border: "1px solid #ddd";
+  }
+
+  .img-project {
+    height: 88%;
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 3%;
+    border-radius: 3%;
+  }
+
+  .project-name {
+    padding-top: 3%;
+    font-weight: bold;
+  }
+
+  .project-content {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+  }
+
+  .project-tag {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .usp-btn {
+    background-color: #b9e2c7;
+    border: #026122;
+    border-radius: 2%;
+    padding: 1% 1.5%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana;
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+  }
+
+  .usp-btn-text {
+    color: #055f18;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .usp-btn-text:hover {
+    font-size: 20px;
+    color: #098d2a;
+  }
+
+  .usp-btn-text-1 {
+    color: #055718;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .usp-btn-text-1:hover {
+    font-size: 20px;
+    color: #046d1e;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}

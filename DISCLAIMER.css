@@ -150,14 +150,60 @@ a:hover {
   font-size: 15px;
 }
 
-/* Responsive layout */
-@media screen and (max-width: 600px) {
+/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+@media only screen and (max-width: 575px) {
+  /* styles for small phones */
+
   .disclaimer-page {
-    min-height: 100%;
-    width: 100%;
+    margin-top: 18%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for large phones and portrait tablets */
+  .disclaimer-page {
+    margin-top: 18%;
+  }
+
+  .ft-link {
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+  .disclaimer-page {
     margin-top: 15%;
-    margin-bottom: 0%;
-    font-weight: 400;
-    text-align: left;
+  }
+
+  .ft-link {
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* styles for medium laptops and desktops */
+  .disclaimer-page {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  /* styles for large laptops and desktops */
+  .disclaimer-page {
+    margin-top: 10%;
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1919.98px) {
+  /* styles for extra large desktops */
+
+  .disclaimer-page {
+    margin-top: 8%;
   }
 }

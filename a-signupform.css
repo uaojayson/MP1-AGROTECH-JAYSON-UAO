@@ -309,4 +309,31 @@ a:hover {
     padding: 2% 15%;
     min-width: 100%;
   }
+
+  .f-title {
+    font-size: 15px;
+  }
+
+  .ft-link {
+    font-size: 13px;
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+
+  .signup-page {
+    margin-top: 10%;
+    min-width: 100%;
+  }
+
+  .f-title {
+    font-size: 15px;
+  }
+
+  .ft-link {
+    font-size: 13px;
+    line-height: 1;
+  }
 }

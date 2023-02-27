@@ -504,14 +504,12 @@ a:hover {
   }
 
   .layer p {
-    font-size: 11px;
+    font-size: 10px;
     text-align: center;
-
-    text-align: justify;
   }
 
   .layer h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -583,14 +581,12 @@ a:hover {
   }
 
   .layer p {
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
-
-    text-align: justify;
   }
 
   .layer h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -662,14 +658,12 @@ a:hover {
   }
 
   .layer p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-
-    text-align: justify;
   }
 
   .layer h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -731,5 +725,60 @@ a:hover {
 
   .terms {
     font-weight: bold;
+  }
+
+  .layer p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .layer h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  /* styles for large laptops and desktops */
+
+  .layer p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .layer h3 {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1919.98px) {
+  /* styles for extra large desktops */
+
+  .layer p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .layer h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  /* styles for very large desktops */
+
+  .layer p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .layer h3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
 }

@@ -130,10 +130,17 @@ label {
   margin-top: 2%;
 }
 
+.here {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .sign-up {
+  font-size: 15px;
   margin-top: 0%;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
 }
@@ -327,5 +334,22 @@ a:hover {
   .ft-link {
     font-size: 13px;
     line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* styles for medium laptops and desktops */
+  .ft-link {
+    font-size: 15px;
+  }
+
+  .sign-up {
+    font-size: 15px;
+  }
+
+  .here {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
   }
 }

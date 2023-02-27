@@ -807,7 +807,7 @@ h1 i {
 
 /* styles for small phones */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   .usellpro-content {
     font-weight: bold;
     font-size: 12px;
@@ -841,7 +841,7 @@ h1 i {
 
 /* styles for large phones and portrait tablets */
 
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .usellpro-content {
     font-weight: bold;
     font-size: 12px;
@@ -886,16 +886,26 @@ h1 i {
   /* styles for landscape tablets and small laptops */
 }
 
-@media only screen and (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .section-1 {
     width: 100%;
     display: block;
     margin-bottom: 10px;
     margin-top: 5%;
   }
+
+  .f-title {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .ft {
+    font-size: 12px;
+    line-height: 1;
+  }
 }
 
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   /* styles for medium laptops and desktops */
   .section-1 {
     width: 100%;

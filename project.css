@@ -59,16 +59,20 @@ html {
   color: #055f18;
 }
 
-.btn {
-  font-weight: 100px;
-  border-color: #d6ecdb;
-  color: #edf3ee;
-  background-color: #0baa13;
-  font-size: 17px;
+.access-btn {
+  color: white;
   transition: 0.5s;
 }
 
+.access-btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
+}
+
 a {
+  /* for the footer LOGO */
   color: rgb(255, 255, 255);
   transition: 0.5s;
 }
@@ -80,14 +84,7 @@ a:hover {
   font-size: 19px;
 }
 
-.btn:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #ffffff;
-  font-size: 20px;
-}
-
-/* Header/Blog Title */
+/* Header */
 .header {
   margin-top: 3%;
   color: white;
@@ -137,15 +134,6 @@ a:hover {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-
 /* -----CALL TO ACTION---- */
 
 .calltoaction-page {
@@ -180,6 +168,14 @@ a:hover {
   font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.btn-info:hover {
+  font-size: 27px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
 }
 
 /* -----FOOTER--- */
@@ -221,6 +217,7 @@ a:hover {
 }
 
 .f-title {
+  font-weight: bold;
   text-align: right;
   font-size: 18px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
@@ -229,4 +226,143 @@ a:hover {
 .ft {
   text-align: right;
   font-size: 15px;
+}
+
+.ft-link {
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  transition: 0.5s;
+}
+
+.ft-link:hover {
+  text-align: right;
+  font-size: 15px;
+  color: white;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.terms:hover {
+  color: rgb(208, 221, 216);
+  font-size: 17px;
+}
+
+.social-icons {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  font-size: 22px;
+}
+
+/* Responsive layout - */
+
+@media only screen and (max-width: 575px) {
+  /* styles for small phones */
+
+  .header {
+    margin-top: 5%;
+  }
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for large phones and portrait tablets */
+
+  .header {
+    margin-top: 5%;
+  }
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* styles for medium laptops and desktops */
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }

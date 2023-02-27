@@ -353,7 +353,7 @@ a:hover {
 }
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
   /* styles for small phones */
 
   .story-page {
@@ -377,7 +377,7 @@ a:hover {
   }
 }
 
-@media only screen and (min-width: 577px) and (max-width: 767.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   /* styles for large phones and portrait tablets */
 
   .story-page {
@@ -412,12 +412,14 @@ a:hover {
     margin-top: 8%;
   }
 
-  .ft {
-    font-size: 10px;
+  .f-title {
+    font-weight: bold;
+    font-size: 13px;
   }
 
-  .f-title {
-    font-size: 13px;
+  .ft {
+    font-size: 12px;
+    line-height: 1;
   }
 }
 

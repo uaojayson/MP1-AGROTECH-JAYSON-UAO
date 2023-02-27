@@ -207,6 +207,14 @@ body {
   font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.btn-info:hover {
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
 }
 
 /* -----FOOTER--- */
@@ -274,6 +282,7 @@ body {
 .terms {
   font-weight: 600;
   font-size: 16px;
+  color: white;
 }
 
 .terms:hover {
@@ -284,22 +293,38 @@ body {
 .social-icons {
   font-size: 20px;
   transition: 0.5s;
+  color: white;
 }
 
 .social-icons:hover {
   font-size: 22px;
 }
 
-a {
+.end-btn {
   color: rgb(255, 255, 255);
   transition: 0.5s;
+  font-size: 20px;
+}
+
+.end-btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 a:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #ffffff;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 /* Responsive layout - */

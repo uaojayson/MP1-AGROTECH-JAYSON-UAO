@@ -46,9 +46,9 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.5s;
 }
 
@@ -57,23 +57,16 @@ html {
   color: #055f18;
 }
 
-a {
+.access-btn {
   color: white;
   transition: 0.5s;
 }
 
-a:hover {
+.access-btn:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
   font-size: 19px;
-}
-
-.btn:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 20px;
 }
 
 .angle-down {
@@ -85,7 +78,6 @@ a:hover {
   font-size: 45px;
   color: #08d312;
 }
-/* ------------The whole Page 1 ----------- */
 
 /* ------------ title area----------- */
 
@@ -104,13 +96,6 @@ a:hover {
 }
 .tag {
   color: white;
-}
-
-.tag bold {
-  font-size: 35px;
-  font-weight: 1000;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
 }
 
 .tag strong {
@@ -133,7 +118,8 @@ a:hover {
 .invest-page {
   min-width: 100vw;
   min-height: 60%;
-  border: "solid green";
+  background-position: center;
+  background-size: cover;
   margin-top: 0%;
   background-image: url(images/plain-bg-4.jpg);
   padding: 3% 5%;
@@ -179,47 +165,6 @@ a:hover {
   margin-bottom: 5%;
   border-radius: 1%;
   transition: transform 0.5s;
-}
-
-.invest-title {
-  color: rgb(255, 255, 255);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
-}
-
-.invest-tag {
-  color: rgb(224, 245, 224);
-  font-size: 20px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 105, 11, 0.8);
-}
-
-.invest-content {
-  padding: 2%;
-  font-size: 18px;
-  font-weight: 500;
-  color: whitesmoke;
-  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
-}
-
-.invest-end-tag {
-  padding-top: 1%;
-  color: rgb(252, 252, 252);
-  font-size: 26px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(2, 66, 5, 0.8);
-}
-
-.invest-btn {
-  background-color: #098d2a;
-  border: #08d312;
-  border-radius: 3%;
-  padding: 1% 1.5%;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .invest-1:hover img {
@@ -324,12 +269,13 @@ a:hover {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
+  align-items: center;
+  justify-content: center;
   background-color: transparent;
   width: 360px;
   height: 360px;
   border: 1px solid #fcfffd;
   margin-bottom: 3%;
-
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -418,10 +364,10 @@ a:hover {
   border-color: #d6ecdb;
   color: #edf3ee;
   background-color: #0baa13;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .btn-info:hover {
@@ -443,8 +389,6 @@ a:hover {
 }
 
 .foot-note {
-  border: "solid white";
-
   text-align: right;
   margin-top: 0.5%;
 }
@@ -457,6 +401,7 @@ a:hover {
   text-align: right;
   font-size: 18px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  font-weight: bold;
 }
 
 .ft {
@@ -464,4 +409,327 @@ a:hover {
   font-size: 15px;
 }
 
+.ft-link {
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  transition: 0.5s;
+}
+
+.ft-link:hover {
+  text-align: right;
+  font-size: 15px;
+  color: white;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.terms:hover {
+  color: rgb(208, 221, 216);
+  font-size: 17px;
+}
+
+.social-icons {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  font-size: 22px;
+}
+
+.end-btn {
+  color: white;
+  transition: 0.5s;
+}
+
+.end-btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
+}
+
+a {
+  color: white;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 27px;
+}
+
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+@media only screen and (max-width: 575px) {
+  /* styles for small phones */
+
+  .title {
+    opacity: 0.8;
+  }
+
+  .tag {
+    margin-top: 5%;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .tag strong {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .slogan {
+    padding-top: -1%;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .why-invest {
+    font-size: 25px;
+  }
+
+  .explore-reason {
+    font-size: 20px;
+  }
+
+  .layer p {
+    font-size: 11px;
+    text-align: center;
+
+    text-align: justify;
+  }
+
+  .layer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .how-title {
+    font-size: 25px;
+    margin-top: 3%;
+  }
+
+  .how-tag {
+    font-size: 18px;
+  }
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .steps {
+    text-align: right;
+  }
+
+  .terms {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for large phones and portrait tablets */
+
+  .title {
+    opacity: 0.8;
+  }
+  .tag {
+    margin-top: 10%;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .tag strong {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .slogan {
+    padding-top: -1%;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .why-invest {
+    font-size: 25px;
+  }
+
+  .explore-reason {
+    font-size: 20px;
+  }
+
+  .layer p {
+    font-size: 13px;
+    text-align: center;
+
+    text-align: justify;
+  }
+
+  .layer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .how-title {
+    font-size: 25px;
+    margin-top: 3%;
+  }
+
+  .how-tag {
+    font-size: 18px;
+  }
+
+  .steps {
+    text-align: center;
+  }
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+  }
+
+  .terms {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+
+  .title {
+    opacity: 0.8;
+  }
+  .tag {
+    margin-top: 10%;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .tag strong {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .slogan {
+    padding-top: -1%;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .why-invest {
+    font-size: 25px;
+  }
+
+  .explore-reason {
+    font-size: 20px;
+  }
+
+  .layer p {
+    font-size: 15px;
+    text-align: center;
+
+    text-align: justify;
+  }
+
+  .layer h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .how-title {
+    font-size: 25px;
+    margin-top: 3%;
+  }
+
+  .how-tag {
+    font-size: 18px;
+  }
+
+  .steps {
+    text-align: center;
+  }
+
+  .f-title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  }
+
+  .ft {
+    text-align: right;
+    font-size: 13px;
+    line-height: 1;
+  }
+
+  .terms {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* styles for medium laptops and desktops */
+
+  .title {
+    opacity: 0.8;
+  }
+  .tag {
+    margin-top: 3%;
+    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
+  }
+
+  .tag strong {
+    font-size: 30px;
+  }
+
+  .slogan {
+    font-size: 20px;
+  }
+
+  .f-title {
+    font-weight: bold;
+  }
+
+  .terms {
+    font-weight: bold;
+  }
+}

@@ -46,9 +46,9 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.5s;
 }
 
@@ -57,13 +57,16 @@ html {
   color: #055f18;
 }
 
-.btn {
-  font-weight: 100px;
-  border-color: #d6ecdb;
-  color: #edf3ee;
-  background-color: #0baa13;
-  font-size: 17px;
+.access-btn {
+  color: white;
   transition: 0.5s;
+}
+
+.access-btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
 }
 
 a {
@@ -273,6 +276,7 @@ input[type="submit"]:hover {
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   background-color: #056d08;
   transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .btn-info:hover {
@@ -317,9 +321,74 @@ input[type="submit"]:hover {
   font-size: 13px;
 }
 
+.ft-link {
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  transition: 0.5s;
+}
+
+.ft-link:hover {
+  text-align: right;
+  font-size: 15px;
+  color: white;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.terms:hover {
+  color: rgb(208, 221, 216);
+  font-size: 17px;
+}
+
+.social-icons {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  font-size: 22px;
+}
+
 /* Responsive layout  */
-@media screen and (max-width: 600px) {
+
+@media only screen and (max-width: 575px) {
+  /* styles for small phones */
+
   .header {
     margin-top: 15%;
+  }
+
+  .terms {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for large phones and portrait tablets */
+
+  .header {
+    margin-top: 10%;
+  }
+
+  .terms {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+
+  .header {
+    margin-top: 5%;
+  }
+
+  .ft-link {
+    line-height: 1;
   }
 }

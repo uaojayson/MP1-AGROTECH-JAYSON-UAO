@@ -261,8 +261,9 @@ a:hover {
   /* styles for large phones and portrait tablets */
 
   .login-page {
-    margin-top: 17%;
+    margin-top: 13%;
     height: 100%;
+    min-width: 100%;
   }
 
   .terms {
@@ -278,7 +279,7 @@ a:hover {
   }
 
   .here {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: underline;
   }
@@ -289,5 +290,42 @@ a:hover {
 
   .ft-link {
     font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for landscape tablets and small laptops */
+
+  .login-page {
+    margin-top: 13%;
+    height: 100%;
+    min-width: 100%;
+  }
+
+  .terms {
+    font-size: 14px;
+  }
+
+  .fpw {
+    font-size: 13px;
+  }
+
+  .sign-up {
+    font-size: 14px;
+  }
+
+  .here {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .h1 {
+    font-size: 35px;
+  }
+
+  .ft-link {
+    font-size: 13px;
+    line-height: 1;
   }
 }

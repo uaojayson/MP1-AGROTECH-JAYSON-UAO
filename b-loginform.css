@@ -221,10 +221,73 @@ a:hover {
   font-size: 13px;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* Responsive layout -  */
+
+@media only screen and (max-width: 575px) {
+  /* styles for small phones */
   .login-page {
-    margin-top: 15%;
-    margin-bottom: 0%;
+    margin-top: 17%;
+    height: 100%;
+  }
+
+  .terms {
+    font-size: 14px;
+  }
+
+  .fpw {
+    font-size: 13px;
+  }
+
+  .sign-up {
+    font-size: 11px;
+  }
+
+  .here {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .h1 {
+    font-size: 35px;
+  }
+
+  .ft-link {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for large phones and portrait tablets */
+
+  .login-page {
+    margin-top: 17%;
+    height: 100%;
+  }
+
+  .terms {
+    font-size: 14px;
+  }
+
+  .fpw {
+    font-size: 13px;
+  }
+
+  .sign-up {
+    font-size: 11px;
+  }
+
+  .here {
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .h1 {
+    font-size: 35px;
+  }
+
+  .ft-link {
+    font-size: 13px;
   }
 }

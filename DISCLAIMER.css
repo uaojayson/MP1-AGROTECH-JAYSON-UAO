@@ -48,7 +48,7 @@ html {
   color: #f8faf8;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   transition: 0.5s;
 }
 
@@ -100,12 +100,6 @@ html {
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
 
-.btn-info {
-  font-size: 25px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-}
-
 /* -----FOOTER--- */
 
 .footer-page {
@@ -150,7 +144,17 @@ a:hover {
   font-size: 15px;
 }
 
-/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 22px;
+}
+
+/* ------------MEDIA - DEVICES COMPATIBILITY----------- */
 
 @media only screen and (max-width: 575px) {
   /* styles for small phones */

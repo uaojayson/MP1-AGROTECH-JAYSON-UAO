@@ -216,13 +216,13 @@ html {
 }
 
 .end-btn {
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.5s;
+  font-weight: bold;
 }
 
 .end-btn:hover {
-  font-size: 20px;
-  transition: 0.5s;
+  font-size: 22px;
 }
 
 .terms {

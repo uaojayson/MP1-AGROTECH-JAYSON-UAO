@@ -154,7 +154,7 @@ a:hover {
 
 /* -- About Us Page-- */
 
-/* -----------------------PAGE 2 Mission - Vision - Values----------------------- */
+/* -----------------------Mission - Vision - Values----------------------- */
 
 .about-us-page {
   font-family: "Roboto", sans-serif;
@@ -253,7 +253,7 @@ h1 i {
   text-shadow: 3px 4px 7px rgba(3, 37, 77, 0.8);
 }
 
-/* -----------------------PAGE 3 Our Story----------------------- */
+/* ----------------------- Our Story----------------------- */
 
 .story-page {
   min-width: 100vw;
@@ -328,7 +328,7 @@ h1 i {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
-/* -----------------------PAGE 4 What Makess Us Different?----------------------- */
+/* -----------------------What Makess Us Different?----------------------- */
 
 .usellpro-page {
   min-width: 100vw;
@@ -400,7 +400,7 @@ h1 i {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
-/* -----------------------PAGE 5 Testimonials----------------------- */
+/* ----------------------- Testimonials----------------------- */
 
 .testimonial-page {
   min-width: 100vw;
@@ -710,8 +710,6 @@ h1 i {
   font-size: 50px;
 }
 
-/* -----------------------END PAGE----------------------- */
-
 /* -----CALL TO ACTION---- */
 
 .calltoaction-page {
@@ -801,6 +799,16 @@ h1 i {
 .ft:hover {
   text-align: right;
   font-size: 17px;
+}
+
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 22px;
 }
 
 /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */

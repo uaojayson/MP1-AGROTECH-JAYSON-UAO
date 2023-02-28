@@ -212,14 +212,14 @@ html {
 }
 
 .layer a {
-  margin-top: 20px;
+  margin-top: 5px;
   color: #ff004f;
   text-decoration: none;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
   background: #fff;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
 }

@@ -85,9 +85,7 @@ a:hover {
   font-size: 20px;
 }
 
-/* ------------The whole Page 1 ----------- */
-
-/* LOG IN FORM STYLING */
+/* Privacy Page*/
 
 .privacy-page {
   min-height: 100%;
@@ -172,7 +170,15 @@ a:hover {
   font-size: 12px;
 }
 
-/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 22px;
+}
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
 

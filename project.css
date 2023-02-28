@@ -260,6 +260,16 @@ a:hover {
   font-size: 22px;
 }
 
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 22px;
+}
+
 /* Responsive layout - */
 
 @media only screen and (max-width: 575px) {

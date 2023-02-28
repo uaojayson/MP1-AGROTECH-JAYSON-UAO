@@ -104,14 +104,10 @@ a:hover {
   position: relative;
   color: #ffffff;
   opacity: 0.9;
-}
-
-/* ------------ title area----------- */
-
-.title {
   text-align: center;
   padding: 13%;
 }
+
 .tag {
   color: white;
   text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green, 0 -0.03em green,
@@ -140,10 +136,6 @@ a:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
 }
-
-/* -----------------------END PAGE----------------------- */
-
-/* -----------------------END PAGE (Farmers and Fishers)----------------------- */
 
 /* ------------ Our Projects----------- */
 

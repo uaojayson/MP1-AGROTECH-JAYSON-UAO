@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 body,
@@ -11,6 +12,9 @@ html {
   min-width: 100%;
   min-height: 100%;
   scroll-behavior: smooth;
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
 }
 
 /* -- Navigation Area-- */
@@ -79,51 +83,7 @@ body {
   background: #f1f1f1;
 }
 
-/* Header/Blog Title */
-.header {
-  margin-top: 3%;
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Header/Blog Title */
+/* Header */
 .header {
   margin-top: 3%;
   color: white;
@@ -149,7 +109,7 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /* Fake image */
@@ -217,15 +177,11 @@ body {
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
 }
 
-/* -----FOOTER--- */
-
 /* Footer */
 .footer {
   padding: 5px;
   text-align: center;
-  background-image: url(images/navbar3.jpg);
   margin-top: 40px;
-  border: "solid green";
   background-image: url(images/navbar2.jpg);
   background-size: cover;
   background-position: center;
@@ -304,10 +260,10 @@ body {
   color: rgb(255, 255, 255);
   transition: 0.5s;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .end-btn:hover {
-  font-weight: 100px;
   border-color: #fff;
   color: #ffffff;
   font-size: 22px;

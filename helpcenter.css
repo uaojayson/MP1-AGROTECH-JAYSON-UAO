@@ -142,6 +142,19 @@ a:hover {
   font-weight: 500;
 }
 
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
 /* ------------Contact----------- */
 
 /* Style inputs */

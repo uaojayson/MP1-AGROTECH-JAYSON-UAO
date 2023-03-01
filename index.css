@@ -326,6 +326,11 @@ h1 i {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.story-btn-text:hover {
+  font-size: 18px;
 }
 
 /* -----------------------What Makess Us Different?----------------------- */
@@ -398,6 +403,11 @@ h1 i {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 2%;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.usp-btn-text:hover {
+  font-size: 20px;
 }
 
 /* ----------------------- Testimonials----------------------- */

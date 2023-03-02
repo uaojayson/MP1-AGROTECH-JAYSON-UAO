@@ -208,6 +208,7 @@
            <div class="col">
              <label for="birth">BIRTH DATE</label>
              <input
+             id="birth"
                type="date"
                class="form-control"
                value="2004-01"
@@ -376,6 +377,25 @@
 </footer>
 </div> <!-- end div footer--> 
 
+
+
+
+<script>
+  const form = document.querySelector('form');
+  const birthdateInput = document.querySelector('#birth');
+
+  form.addEventListener('submit', function(event) {
+    const birthdate = new Date(birthdateInput.value);
+    const today = new Date();
+    const ageInYears = today.getFullYear() - birthdate.getFullYear();
+
+    // Check if the age is less than 18
+    if (ageInYears < 18) {
+      alert('You must be 18 years or older to submit this form.');
+      event.preventDefault();
+    }
+  });
+</script>
       
   </body>
 </html>

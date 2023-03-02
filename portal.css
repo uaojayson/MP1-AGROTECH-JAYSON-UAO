@@ -50,37 +50,15 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
   font-size: 17px;
   color: #055f18;
-}
-
-.access-btn {
-  color: white;
-  transition: 0.5s;
-}
-
-.access-btn:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 19px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
 }
 
 /* Header */
@@ -162,20 +140,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
-}
-
-.btn-info {
-  font-size: 25px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-  transition: 0.5s;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-}
-
-.btn-info:hover {
-  font-size: 27px;
-  font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
 }
 
 /* Footer */

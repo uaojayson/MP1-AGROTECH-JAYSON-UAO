@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #333;
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+  height: 100%;
+  position: fixed;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}

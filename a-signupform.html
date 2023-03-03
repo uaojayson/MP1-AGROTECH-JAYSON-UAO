@@ -381,27 +381,34 @@
 
 
 <script>
-  const form = document.querySelector('form');
-  const birthdateInput = document.querySelector('#birth');
+const form = document.querySelector('form');
+const birthdateInput = document.querySelector('#birth');
+const passwordInput = document.querySelector('#pw');
+const confirmPasswordInput = document.querySelector('#password');
 
-  form.addEventListener('submit', function(event) {
-    const birthdate = new Date(birthdateInput.value);
-    const today = new Date();
-    const ageInYears = today.getFullYear() - birthdate.getFullYear();
+form.addEventListener('submit', function(event) {
+  const birthdate = new Date(birthdateInput.value);
+  const today = new Date();
+  const ageInYears = today.getFullYear() - birthdate.getFullYear();
+  const password = passwordInput.value;
+  const confirmPassword = confirmPasswordInput.value;
 
-    // Check if the age is less than 18
-    if (ageInYears < 18) {
-      alert('You must be 18 years or older to submit this form.');
-      event.preventDefault();
+  // Check if the age is less than 18
+  if (ageInYears < 18) {
+    alert('You must be 18 years or older to submit this form.');
+    event.preventDefault();
+  }
+  // Check if the passwords match
+  else if (password !== confirmPassword) {
+    alert('Passwords do not match.');
+    event.preventDefault();
+  }
+  else  {
+    alert('YOU HAVE SUCCESSFULLY REGISTERED!');
+    window.location.href = "z.html";
+  }
+});
 
-    }
-
-    else  {
-      alert('YOU HAVE SUCCESSFULLY REGISTERED!');
-      window.location.href = "z.html";
-      
-    }
-  });
 </script>
 
 

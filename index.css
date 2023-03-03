@@ -168,8 +168,8 @@ a:hover {
   min-height: 80vh;
   min-width: 100vw;
   margin-top: 0%;
-  background-color: #06751e;
-  background-image: url(images/plain-bg-8.jpg);
+  background-color: #a5d8b1;
+  background-image: "url(images/plain-bg-8.jpg)";
   background-position: center;
   background-size: cover;
 }
@@ -258,7 +258,7 @@ h1 i {
   min-width: 100vw;
   min-height: 60%;
   margin-top: 0%;
-  background-image: url(images/plain-bg-4.jpg);
+
   padding: 3% 5%;
 }
 

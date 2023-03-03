@@ -123,6 +123,7 @@ html {
   margin-top: 0%;
   background-image: url(images/plain-bg-4.jpg);
   padding: 3% 5%;
+  opacity: 0.95;
 }
 
 .why-invest {
@@ -146,10 +147,11 @@ html {
 
 .invest-1 {
   padding: 0%;
-  background-color: #098d2a;
+  background-color: #5aaa6d;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+
   transition: 0.5s;
 }
 
@@ -165,6 +167,7 @@ html {
   margin-bottom: 5%;
   border-radius: 1%;
   transition: transform 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .invest-1:hover img {
@@ -255,6 +258,7 @@ html {
 
 .steps-body {
   padding-top: 3%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .card-group {

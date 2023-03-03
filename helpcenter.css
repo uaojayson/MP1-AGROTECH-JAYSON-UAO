@@ -248,7 +248,7 @@ input[type="submit"]:hover {
   min-width: 100vw;
   min-height: 100%;
   margin-top: 0%;
-  background-image: url(images/navbar3.jpg);
+  background-color: #0b8d16;
   background-size: cover;
   opacity: 0.95;
 }

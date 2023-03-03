@@ -168,8 +168,9 @@ a:hover {
   min-height: 100%;
   border: "solid green";
   margin-top: 0.98%;
-  background-image: url(images/navbar3.jpg);
+  background-image: url(images/plain-bg-5.jpg);
   background-size: cover;
+
   padding: -2% 3%;
 }
 

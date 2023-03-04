@@ -48,12 +48,12 @@ html {
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 15px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .dropdown-menu {
@@ -66,12 +66,12 @@ html {
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 15px;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   background-color: #454645;
   -webkit-backdrop-filter: blur(5px);
@@ -89,13 +89,14 @@ html {
 .get-in {
   color: white;
   transition: 0.5s;
+  font-size: 15px;
 }
 
 .get-in:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -142,7 +143,7 @@ a:hover {
   opacity: 0.75;
 }
 .tag {
-  margin-top: 4%;
+  margin-top: 3%;
 }
 
 .tag bold {
@@ -197,7 +198,7 @@ a:hover {
   border-radius: 2%;
   font-size: 16px;
   color: #fff;
-  background-color: rgb(15, 158, 15);
+  background-color: #006400;
   text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
 }
 
@@ -207,10 +208,8 @@ a:hover {
 
 .about-us-page {
   font-family: "Open Sans", sans-serif;
-  color: rgb(8, 8, 8);
   padding-left: 5%;
   padding-right: 5%;
-  border: "";
   min-width: 100%;
   min-height: 100vh;
   min-height: 80vh;
@@ -219,13 +218,13 @@ a:hover {
   background-color: #0e341c;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .about-us-title {
   margin-top: 0%;
-  margin-bottom: 1%;
-  font-size: 50px;
+  margin-bottom: 2%;
+  font-size: 45px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   color: #f1fcf9;
@@ -241,47 +240,51 @@ h1 i {
 }
 
 .mission {
-  font-size: 22px;
-  font-weight: 600;
-  color: #72bf44;
+  font-size: 20px;
+  font-weight: bold;
+  color: #006400;
   font-family: "Maven Pro", sans-serif;
 }
 
 .mission-statement {
-  color: #000000;
   font-weight: 500;
   text-align: justify;
+  color: #454645;
+  font-size: 15px;
 }
 
 .community {
-  font-size: 22px;
-  font-weight: 600;
-  color: #72bf44;
+  font-size: 20px;
+  font-weight: bold;
+  color: #006400;
   font-family: "Maven Pro", sans-serif;
 }
 
 .community-statement {
-  color: #000000;
+  color: #454645;
   font-weight: 500;
   text-align: justify;
+  font-size: 15px;
 }
 
 .vision {
-  font-size: 22px;
-  font-weight: 600;
-  color: #72bf44;
+  font-size: 20px;
+  font-weight: bold;
+  color: #006400;
   font-family: "Maven Pro", sans-serif;
 }
 
 .vision-statement {
-  color: #000000;
+  color: #454645;
   font-weight: 500;
   text-align: justify;
+  font-size: 15px;
 }
 
 .text-muted {
   font-weight: bold;
   font-size: 17px;
+  color: #454645;
 }
 
 .row .about-us-values {
@@ -329,23 +332,23 @@ h1 i {
 
 .story-title {
   color: rgb(216, 238, 224);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 50px;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
   text-shadow: 3px 4px 7px rgba(4, 1, 22, 0.8);
 }
 
 .story-tag {
   color: rgb(238, 250, 244);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(57, 63, 57, 0.8);
 }
 
 .story-content {
   padding: 2%;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 400;
   color: rgb(255, 255, 255);
   text-shadow: 3px 4px 7px rgba(124, 124, 128, 0.8);
   text-align: justify;
@@ -354,7 +357,7 @@ h1 i {
 .story-end-tag {
   padding-top: 1%;
   color: rgb(252, 252, 252);
-  font-size: 26px;
+  font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(2, 66, 5, 0.8);
 }
@@ -362,17 +365,17 @@ h1 i {
 .story-btn {
   background-color: #006400;
   border: #08d312;
+  margin-top: 2%;
   border-radius: 1.5%;
   padding: 1% 2%;
-  font-size: 16px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
 }
 
 .story-btn-text {
   color: white;
+  font-size: 16px;
 }
 
 .story-btn-text:hover {
@@ -394,8 +397,8 @@ h1 i {
 
 .usellpro-title-page {
   margin-top: 1%;
-  margin-bottom: 1%;
-  font-size: 50px;
+  margin-bottom: 2%;
+  font-size: 45px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -403,9 +406,10 @@ h1 i {
 }
 
 .usellpro-content {
-  font-weight: 500;
+  font-weight: 400;
   text-align: justify;
   color: white;
+  font-size: 15px;
 }
 
 .imgusellpro {
@@ -433,13 +437,13 @@ h1 i {
 .usellpro-title {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .usellpro-tag {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -448,9 +452,8 @@ h1 i {
   border: #05750a;
   border-radius: 1.5%;
   padding: 1% 2%;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 2%;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
@@ -458,10 +461,11 @@ h1 i {
 
 .usp-btn-text {
   color: white;
+  font-size: 16px;
 }
 
 .usp-btn-text:hover {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 
@@ -472,16 +476,15 @@ h1 i {
   min-height: 100%;
   margin-top: 0%;
   padding: 2% 3%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: -0.8%;
 }
 
 .test-title-page {
   margin-top: 1%;
   margin-bottom: 1.3%;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: green;
   padding-top: 0%;
 }
@@ -501,7 +504,7 @@ h1 i {
 .heading {
   text-align: center;
   color: #454343;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   position: relative;
   margin-bottom: 70px;
@@ -511,7 +514,6 @@ h1 i {
 .white-heading {
   padding-top: 2%;
   color: #ffffff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 4px 7px rgba(9, 117, 81, 0.8);
 }
 .heading:after {
@@ -695,13 +697,13 @@ h1 i {
 .testimonial4_slide p {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.4;
   margin: 40px 0 20px 0;
 }
 .testimonial4_slide h4 {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 5%;
 }
 
@@ -731,7 +733,7 @@ h1 i {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #006400;
+  background-color: #0e341c;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: bold;
@@ -751,7 +753,7 @@ h1 i {
   margin-top: 0.1%;
   background-color: #454645;
   background-size: cover;
-  padding: -2% 3%;
+  padding: 0% 3%;
   opacity: 0.85;
 }
 
@@ -763,7 +765,7 @@ h1 i {
 
 .h1 {
   font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
@@ -772,7 +774,7 @@ h1 i {
 
 .lead {
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
@@ -820,20 +822,20 @@ h1 i {
 
 .f-title {
   text-align: right;
-  font-size: 19px;
+  font-size: 17px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   font-weight: bold;
 }
 
 .ft {
   text-align: right;
-  font-size: 15px;
+  font-size: 14px;
   transition: 0.5s;
 }
 
 .ft:hover {
   text-align: right;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .end-btn {
@@ -843,7 +845,7 @@ h1 i {
 }
 
 .end-btn:hover {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */ /* WEB RESPONSIVENESS AREA */

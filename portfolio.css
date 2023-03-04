@@ -122,19 +122,6 @@ a:hover {
   font-size: 17px;
   text-decoration: none;
 }
-/* -- Read More and See More effect-- */
-
-a {
-  color: white;
-  transition: 0.5s;
-}
-
-a:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 19px;
-}
 
 /* -- Title Page-- */
 

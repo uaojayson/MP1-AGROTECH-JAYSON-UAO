@@ -216,13 +216,12 @@ a:hover {
 }
 
 .project-1 {
-  background-color: #0e341c;
+  background-color: #1d3b09;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-  opacity: 0.95;
 }
 
 .project-2 {
-  background-color: #454645;
+  background-color: #5e5f5e;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   padding-bottom: 2%;
 }
@@ -283,7 +282,7 @@ a:hover {
   min-height: 100%;
   min-width: 100vw;
   background-color: #0e341c;
-  opacity: 0.95;
+  opacity: 0.9;
   padding-bottom: 2%;
 }
 .card-img-top {

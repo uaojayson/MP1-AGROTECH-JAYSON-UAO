@@ -1,9 +1,11 @@
 /* ------------Universal Formal----------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body,
@@ -15,58 +17,87 @@ html {
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 .navbar-brand {
-  font-size: 19px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
 .navbar-brand:hover {
-  font-size: 22px;
+  font-size: 19px;
+}
+
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
   font-weight: bold;
+  transition: 0.5s;
+  color: #5edb12;
+}
+
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 15px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
-  font-weight: bold;
+  font-size: 16px;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 17px;
-  color: #055f18;
+  font-size: 14px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .access-btn {
-  color: white;
-  transition: 0.5s;
+  background-color: #0e341c;
 }
 
 .access-btn:hover {
+  background-color: #0e341c;
+}
+
+.get-in {
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.get-in:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .angle-down {
@@ -76,9 +107,21 @@ html {
 }
 .angle-down:hover {
   font-size: 45px;
-  color: #08d312;
+  color: #5edb12;
 }
 
+a {
+  color: white;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+}
 /* -- Read More and See More effect-- */
 
 a {
@@ -103,37 +146,43 @@ a:hover {
   background-size: cover;
   position: relative;
   color: #ffffff;
-  opacity: 0.9;
+  opacity: 0.95;
   text-align: center;
-  padding: 13%;
+  padding: 10%;
+}
+
+.area-title {
+  padding-top: 1%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  opacity: 0.85;
 }
 
 .tag {
   color: white;
-  text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green, 0 -0.03em green,
-    -0.03em -0.03em green, -0.03em 0.03em green, 0.03em -0.03em green,
-    0.03em 0.03em green;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tag bold {
   font-size: 35px;
   font-weight: 1000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
   text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
 }
 
 .tag strong {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 400px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .slogan {
   padding-top: -1%;
   font-weight: 800;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
 }
 
@@ -144,7 +193,6 @@ a:hover {
   min-height: 100%;
   border: "solid green";
   margin-top: 0%;
-  background-image: url(images/plain-bg-8.jpg);
   background-size: cover;
   background-color: center;
   color: #ffffff;
@@ -154,10 +202,10 @@ a:hover {
 .project-title-page {
   margin-top: 0.1%;
   margin-bottom: 1%;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: #006400;
   padding-top: 2%;
 }
 
@@ -168,13 +216,15 @@ a:hover {
 }
 
 .project-1 {
-  border: "1px solid #ddd";
+  background-color: #0e341c;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
-  border-radius: 2%;
+  opacity: 0.95;
 }
 
 .project-2 {
-  border: "1px solid #ddd";
+  background-color: #454645;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  padding-bottom: 2%;
 }
 
 .img-project {
@@ -199,43 +249,30 @@ a:hover {
 }
 
 .project-tag {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .usp-btn {
-  background-color: #b9e2c7;
-  border: #026122;
+  background-color: #006400;
+  border: #006400;
   border-radius: 2%;
   padding: 1% 1.5%;
   font-size: 20px;
   font-weight: bold;
-  font-family: Verdana;
-
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
 }
 
-.usp-btn-text {
-  color: #055f18;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.usp-btn-text:hover {
-  font-size: 20px;
-  color: #098d2a;
-}
-
 .usp-btn-text-1 {
-  color: #055718;
+  color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
 .usp-btn-text-1:hover {
   font-size: 20px;
-  color: #046d1e;
+  color: white;
 }
 
 /* -----------------------END PAGE (Our Projects)----------------------- */
@@ -245,6 +282,9 @@ a:hover {
 .news-page {
   min-height: 100%;
   min-width: 100vw;
+  background-color: #0e341c;
+  opacity: 0.95;
+  padding-bottom: 2%;
 }
 .card-img-top {
   height: 30%;
@@ -253,13 +293,13 @@ a:hover {
 
 .card {
   min-height: 100%;
+  margin-bottom: 3%;
+  background-color: #454645;
+  opacity: 0.95;
 }
 
 .news {
   margin: 3% 5%;
-}
-
-.news-updates {
 }
 
 .card-text {
@@ -274,11 +314,11 @@ a:hover {
 .calltoaction-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
-  margin-top: 0.1%;
-  background-color: #0b8d16;
+  margin-top: 2%;
+  background-color: #454645;
   background-size: cover;
-  padding: -2% 3%;
+  padding: 0% 3%;
+  opacity: 0.95;
 }
 
 .jumbotron {
@@ -289,7 +329,7 @@ a:hover {
 
 .h1 {
   font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
@@ -298,21 +338,26 @@ a:hover {
 
 .lead {
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
 
 .btn-info {
+  background-color: #006400;
   font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .btn-info:hover {
+  background-color: #006400;
   font-size: 27px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----FOOTER--- */
@@ -320,9 +365,8 @@ a:hover {
 .footer-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
-  margin-top: -0.96%;
-  background-image: url(images/navbar2.jpg);
+  margin-top: -0.98%;
+  background-color: #172e08;
   background-size: cover;
   background-position: center;
   padding: 2% 2%;
@@ -330,26 +374,29 @@ a:hover {
 }
 
 .foot-note {
-  border: "solid white";
-
   text-align: right;
   margin-top: 0.5%;
 }
 
 .foot-note-2 {
-  line-height: 0.7;
+  line-height: 0.6;
 }
 
 .f-title {
   text-align: right;
-  font-size: 18px;
+  font-size: 15px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   font-weight: bold;
 }
 
-.ft {
-  text-align: right;
-  font-size: 15px;
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 21px;
 }
 
 .ft-link {
@@ -367,12 +414,12 @@ a:hover {
 
 .terms {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .terms:hover {
   color: rgb(208, 221, 216);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .social-icons {
@@ -384,16 +431,17 @@ a:hover {
   font-size: 22px;
 }
 
-.end-btn {
-  font-size: 20px;
+a {
+  color: white;
   transition: 0.5s;
-  font-weight: bold;
-}
+} /* ALL LINKS */
 
-.end-btn:hover {
-  font-size: 22px;
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
 }
-
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
 
 @media only screen and (max-width: 575px) {

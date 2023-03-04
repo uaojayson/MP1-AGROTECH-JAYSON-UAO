@@ -38,12 +38,12 @@ html {
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 16px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
 }
 

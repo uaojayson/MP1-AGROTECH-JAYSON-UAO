@@ -19,46 +19,54 @@ html {
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
-.navbar-brand {
-  font-size: 19px;
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
-.navbar-brand:hover {
-  font-size: 22px;
-  font-weight: bold;
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 16px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 17px;
-  color: #055f18;
+  font-size: 14px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 /* Header */
@@ -71,11 +79,9 @@ html {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background-image: url(images/plain-bg-8.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #0e341c;
+  opacity: 0.9;
 }
-
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
@@ -144,12 +150,10 @@ html {
 
 /* Footer */
 .footer {
-  padding: 5px;
+  padding: 20px;
   text-align: center;
+  background-color: #172e08;
   margin-top: 40px;
-  background-image: url(images/navbar2.jpg);
-  background-size: cover;
-  background-position: center;
   color: white;
 }
 

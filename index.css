@@ -1,9 +1,11 @@
 /* ------------Universal Formal----------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body,
@@ -15,16 +17,34 @@ html {
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 .navbar-brand {
-  font-size: 19px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
 .navbar-brand:hover {
-  font-size: 22px;
+  font-size: 19px;
+}
+
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
   font-weight: bold;
+  transition: 0.5s;
+  color: #5edb12;
+}
+
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
@@ -33,28 +53,60 @@ html {
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
-  font-weight: bold;
+  font-size: 18px;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
+  font-size: 16px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.access-btn {
+  background-color: #0e341c;
+}
+
+.access-btn:hover {
+  background-color: #0e341c;
+}
+
+.get-in {
+  color: white;
+  transition: 0.5s;
+}
+
+.get-in:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
   font-size: 17px;
-  color: #055f18;
+  text-decoration: none;
+}
+
+.angle-down {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  transition: 0.5s;
+}
+.angle-down:hover {
+  font-size: 45px;
+  color: #5edb12;
 }
 
 a {
@@ -67,24 +119,14 @@ a:hover {
   border-color: #fff;
   color: #fff;
   font-size: 17px;
-}
-
-.angle-down {
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  transition: 0.5s;
-}
-.angle-down:hover {
-  font-size: 45px;
-  color: #08d312;
+  text-decoration: none;
 }
 
 /* -- Introduction Title-- */
 
 .intro-title {
   color: white;
-  border: "solid green";
-  min-height: 100vh;
+  min-height: 90vh;
   min-width: 100vw;
   margin-top: 3%;
   background-image: url(images/backgroundimage.jpg);
@@ -92,49 +134,57 @@ a:hover {
   background-position: center;
 }
 
+.area-title {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  opacity: 0.75;
+}
 .tag {
   margin-top: 4%;
-  text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green, 0 -0.03em green,
-    -0.03em -0.03em green, -0.03em 0.03em green, 0.03em -0.03em green,
-    0.03em 0.03em green;
 }
 
 .tag bold {
-  font-size: 30px;
-  font-weight: 1000;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
+  font-size: 22px;
+  margin-bottom: -2%;
+  font-weight: 1000px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
 }
 
 .tag strong {
-  color: #0fdf19;
+  color: #5edb12;
   font-size: 60px;
   font-weight: 400px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  font-family: "Maven Pro", sans-serif;
+}
+
+.icon-leaf {
+  color: #5edb12;
 }
 
 .slogan1 {
   padding-bottom: 0%;
   margin-bottom: -0.5%;
   font-weight: 800;
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 3px 4px 7px rgba(2, 56, 18, 0.8);
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
 }
 
 .slogan {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   font-weight: 800;
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow: 3px 4px 7px rgba(1, 49, 16, 0.8);
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
 }
 
 .agriproj-btn {
-  background-color: rgb(15, 158, 15);
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  background-color: #006400;
+  font-weight: bold;
+  font-size: 15px;
   color: #fff;
   padding: 0.5% 2%;
   transition: 0.5s;
@@ -145,7 +195,7 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
   border-radius: 2%;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   background-color: rgb(15, 158, 15);
   text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
@@ -156,22 +206,20 @@ a:hover {
 /* -----------------------Mission - Vision - Values----------------------- */
 
 .about-us-page {
-  font-family: "Roboto", sans-serif;
-  background-color: inherit;
+  font-family: "Open Sans", sans-serif;
   color: rgb(8, 8, 8);
   padding-left: 5%;
   padding-right: 5%;
   border: "";
   min-width: 100%;
   min-height: 100vh;
-  border: "solid green";
   min-height: 80vh;
   min-width: 100vw;
   margin-top: 0%;
-  background-color: #a5d8b1;
-  background-image: "url(images/plain-bg-8.jpg)";
-  background-position: center;
-  background-size: cover;
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  opacity: 0.95;
 }
 
 .about-us-title {
@@ -179,9 +227,8 @@ a:hover {
   margin-bottom: 1%;
   font-size: 50px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #f1fcf9;
-  text-shadow: 3px 4px 7px rgba(7, 2, 56, 0.8);
   padding-top: 3%;
 }
 
@@ -194,42 +241,39 @@ h1 i {
 }
 
 .mission {
-  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: green;
+  color: #72bf44;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .mission-statement {
-  font-family: "Roboto", sans-serif;
   color: #000000;
   font-weight: 500;
   text-align: justify;
 }
 
 .community {
-  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: green;
+  color: #72bf44;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .community-statement {
-  font-family: "Roboto", sans-serif;
   color: #000000;
   font-weight: 500;
   text-align: justify;
 }
 
 .vision {
-  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 600;
-  color: green;
+  color: #72bf44;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .vision-statement {
-  font-family: "Roboto", sans-serif;
   color: #000000;
   font-weight: 500;
   text-align: justify;
@@ -241,11 +285,9 @@ h1 i {
 }
 
 .row .about-us-values {
-  background-image: "url(images/navbar.jpg)";
   font-weight: bold;
   margin-top: 0%;
   font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ddf0f1;
   padding-top: 0.75%;
   padding-bottom: 2%;
@@ -258,22 +300,23 @@ h1 i {
   min-width: 100vw;
   min-height: 60%;
   margin-top: 0%;
-
   padding: 3% 5%;
 }
 
 .story-1 {
   padding: 0%;
-  background-color: #098d2a;
+  background-color: #0e341c;
   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.1),
     0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
 }
 
 .story-2 {
-  background-color: #a88d66;
+  background-color: #0e341c;
   padding-top: 3%;
   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.1),
     0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
 }
 
 .imgstory {
@@ -317,7 +360,7 @@ h1 i {
 }
 
 .story-btn {
-  background-color: #098d2a;
+  background-color: #006400;
   border: #08d312;
   border-radius: 1.5%;
   padding: 1% 2%;
@@ -328,7 +371,12 @@ h1 i {
   transition: 0.5s;
 }
 
+.story-btn-text {
+  color: white;
+}
+
 .story-btn-text:hover {
+  color: white;
   font-size: 18px;
 }
 
@@ -338,9 +386,10 @@ h1 i {
   min-width: 100vw;
   min-height: 100%;
   margin-top: 0%;
-  background-image: url(images/about-us.jpg);
   padding: 2% 3%;
   opacity: 0.95;
+  background-color: #454645;
+  opacity: 0.9;
 }
 
 .usellpro-title-page {
@@ -348,15 +397,15 @@ h1 i {
   margin-bottom: 1%;
   font-size: 50px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #079937;
-  text-shadow: 3px 4px 7px rgba(178, 226, 210, 0.8);
+  font-family: "Montserrat", sans-serif;
+  color: white;
   padding-top: 0% 10%;
 }
 
 .usellpro-content {
-  font-weight: bold;
+  font-weight: 500;
   text-align: justify;
+  color: white;
 }
 
 .imgusellpro {
@@ -369,31 +418,33 @@ h1 i {
 
 .usellpro-1 {
   padding: 0%;
-  background-color: "#5abe73";
-  opacity: 0.8;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .usellpro-2 {
-  background-color: "#ad9777";
+  background-color: #0e341c;
   padding-top: 0%;
-  opacity: 0.9;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .usellpro-title {
-  color: #5c4229;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: bold;
 }
 
 .usellpro-tag {
-  color: rgb(18, 119, 32);
+  color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
 .usp-btn {
-  background-color: #098d2a;
+  background-color: #006400;
   border: #05750a;
   border-radius: 1.5%;
   padding: 1% 2%;
@@ -405,8 +456,13 @@ h1 i {
   transition: 0.5s;
 }
 
+.usp-btn-text {
+  color: white;
+}
+
 .usp-btn-text:hover {
   font-size: 20px;
+  color: white;
 }
 
 /* ----------------------- Testimonials----------------------- */
@@ -431,9 +487,10 @@ h1 i {
 }
 
 .testi-con {
-  background-color: #9c7b5c;
+  background-color: #0e341c;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
+  opacity: 0.95;
 }
 
 .testi-con:hover {
@@ -674,14 +731,15 @@ h1 i {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-image: url(images/plain-bg-8.jpg);
+  background-color: #454645;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: bold;
 }
 
 .fa {
-  font-size: 50px;
+  font-size: 30px;
+  color: #5edb12;
 }
 
 /* -----CALL TO ACTION---- */
@@ -690,9 +748,10 @@ h1 i {
   min-width: 100vw;
   min-height: 100%;
   margin-top: 0.1%;
-  background-color: #0b8d16;
+  background-color: #454645;
   background-size: cover;
   padding: -2% 3%;
+  opacity: 0.95;
 }
 
 .jumbotron {
@@ -718,15 +777,16 @@ h1 i {
 }
 
 .btn-info {
+  background-color: #006400;
   font-size: 25px;
   font-weight: bold;
-
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   transition: 0.5s;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .btn-info:hover {
+  background-color: #006400;
   font-size: 27px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
@@ -738,8 +798,8 @@ h1 i {
 .footer-page {
   min-width: 100vw;
   min-height: 100%;
-  margin-top: -0.93%;
-  background-image: url(images/navbar2.jpg);
+  margin-top: -0.98%;
+  background-color: #172e08;
   background-size: cover;
   background-position: center;
   padding: 2% 2%;

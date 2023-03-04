@@ -388,7 +388,7 @@ h1 i {
   margin-top: 0%;
   padding: 2% 3%;
   opacity: 0.95;
-  background-color: #454645;
+  background-color: #545554;
   opacity: 0.9;
 }
 
@@ -487,10 +487,10 @@ h1 i {
 }
 
 .testi-con {
-  background-color: #0e341c;
+  background-color: #454645;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .testi-con:hover {
@@ -731,14 +731,15 @@ h1 i {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #454645;
+  background-color: #006400;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: bold;
+  opacity: 0.9;
 }
 
 .fa {
-  font-size: 30px;
+  font-size: 35px;
   color: #5edb12;
 }
 
@@ -751,7 +752,7 @@ h1 i {
   background-color: #454645;
   background-size: cover;
   padding: -2% 3%;
-  opacity: 0.95;
+  opacity: 0.85;
 }
 
 .jumbotron {

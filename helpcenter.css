@@ -1,9 +1,11 @@
 /* ------------Universal Formal----------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body,
@@ -15,58 +17,97 @@ html {
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 .navbar-brand {
-  font-size: 19px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
 .navbar-brand:hover {
-  font-size: 22px;
+  font-size: 19px;
+}
+
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
   font-weight: bold;
+  transition: 0.5s;
+  color: #5edb12;
+}
+
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 15px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
-  font-weight: bold;
+  font-size: 16px;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 17px;
-  color: #055f18;
+  font-size: 14px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .access-btn {
-  color: white;
-  transition: 0.5s;
+  background-color: #0e341c;
 }
 
 .access-btn:hover {
+  background-color: #0e341c;
+}
+
+.get-in {
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.get-in:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.angle-down {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  transition: 0.5s;
+}
+.angle-down:hover {
+  font-size: 45px;
+  color: #5edb12;
 }
 
 a {
@@ -78,9 +119,9 @@ a:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
-  font-size: 19px;
+  font-size: 17px;
+  text-decoration: none;
 }
-
 /* ------------The whole Page 1 ----------- */
 
 /* Header/Blog Title */
@@ -92,12 +133,11 @@ a:hover {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background-image: url(images/plain-bg-8.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #0e341c;
   width: 100vw;
   padding-left: 15%;
   padding-right: 15%;
+  opacity: 0.9;
 }
 
 .faqs {
@@ -126,7 +166,6 @@ a:hover {
   outline: none;
   font-size: 15px;
   transition: 0.4s;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .active,
@@ -189,13 +228,14 @@ input[type="submit"]:hover {
 .contact-us {
   margin-top: 1%;
   border-radius: 5px;
-  background-color: #bad1be;
+  background-color: #0e341c;
   background-position: CENTER;
   background-size: COVER;
   padding: 1% 8%;
   justify-content: center;
   min-height: 100%;
   width: 100vw;
+  opacity: 0.9;
 }
 
 .contact-title {
@@ -207,25 +247,25 @@ input[type="submit"]:hover {
 
 .contact-tag {
   font-weight: bold;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
+  font-size: 18px;
+  color: white;
 }
 
 .contact-details {
   font-weight: bold;
-  font-size: 18px;
-  color: rgb(0, 0, 0);
+  font-size: 15px;
+  color: white;
 }
 
 .social-media {
   font-weight: bold;
-  font-size: 19px;
+  font-size: 18px;
   color: rgb(252, 249, 249);
-  text-shadow: 3px 4px 7px rgba(3, 59, 21, 0.8);
 }
 
 .label {
   font-weight: bold;
+  color: #fff;
 }
 /* Create two columns that float next to each other */
 .column {
@@ -241,15 +281,17 @@ input[type="submit"]:hover {
   display: table;
   clear: both;
 }
+/* -----------------------END HOW IT WORKS PAGE----------------------- */
 
 /* -----CALL TO ACTION---- */
 
 .calltoaction-page {
   min-width: 100vw;
   min-height: 100%;
-  margin-top: 0%;
-  background-color: #0b8d16;
+  margin-top: 2%;
+  background-color: #454645;
   background-size: cover;
+  padding: 0% 3%;
   opacity: 0.95;
 }
 
@@ -261,7 +303,7 @@ input[type="submit"]:hover {
 
 .h1 {
   font-size: 48px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
@@ -270,25 +312,26 @@ input[type="submit"]:hover {
 
 .lead {
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
 
 .btn-info {
+  background-color: #006400;
   font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-  background-color: #056d08;
   transition: 0.5s;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .btn-info:hover {
-  font-size: 26px;
+  background-color: #006400;
+  font-size: 27px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-  background-color: #056d08;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----FOOTER--- */
@@ -297,7 +340,7 @@ input[type="submit"]:hover {
   min-width: 100vw;
   min-height: 100%;
   margin-top: -0.98%;
-  background-image: url(images/navbar2.jpg);
+  background-color: #172e08;
   background-size: cover;
   background-position: center;
   padding: 2% 2%;
@@ -305,7 +348,6 @@ input[type="submit"]:hover {
 }
 
 .foot-note {
-  border: "solid white";
   text-align: right;
   margin-top: 0.5%;
 }
@@ -316,14 +358,19 @@ input[type="submit"]:hover {
 
 .f-title {
   text-align: right;
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  font-weight: bold;
 }
 
-.ft {
-  text-align: right;
-  font-size: 13px;
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 21px;
 }
 
 .ft-link {
@@ -341,12 +388,12 @@ input[type="submit"]:hover {
 
 .terms {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .terms:hover {
   color: rgb(208, 221, 216);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .social-icons {
@@ -358,16 +405,17 @@ input[type="submit"]:hover {
   font-size: 22px;
 }
 
-.end-btn {
-  font-size: 20px;
+a {
+  color: white;
   transition: 0.5s;
-  font-weight: bold;
-}
+} /* ALL LINKS */
 
-.end-btn:hover {
-  font-size: 22px;
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
 }
-
 /* Responsive layout  */
 
 @media only screen and (max-width: 575px) {

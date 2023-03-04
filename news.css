@@ -12,71 +12,97 @@ html {
   min-width: 100%;
   min-height: 100%;
   scroll-behavior: smooth;
-  font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
 }
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
-.navbar-brand {
-  font-size: 19px;
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
-.navbar-brand:hover {
-  font-size: 22px;
-  font-weight: bold;
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 15px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 17px;
-  color: #055f18;
+  font-size: 14px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .access-btn {
-  color: white;
-  transition: 0.5s;
+  background-color: #0e341c;
 }
 
 .access-btn:hover {
+  background-color: #0e341c;
+}
+
+.get-in {
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.get-in:hover {
   font-weight: 100px;
   border-color: #fff;
   color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a {
+  /* for the footer LOGO */
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #ffffff;
   font-size: 19px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
+/* Header */
 /* Header */
 .header {
   margin-top: 3%;
@@ -87,9 +113,8 @@ html {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background-image: url(images/plain-bg-8.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #0e341c;
+  opacity: 0.9;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -159,27 +184,27 @@ html {
 }
 
 .btn-info {
+  background-color: #006400;
   font-size: 25px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-  transition: 0.5s;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
 }
 
 .btn-info:hover {
+  background-color: #006400;
   font-size: 27px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
 }
 
 /* Footer */
 .footer {
-  padding: 5px;
+  padding: 20px;
   text-align: center;
+  background-color: #172e08;
   margin-top: 40px;
-  background-image: url(images/navbar2.jpg);
-  background-size: cover;
-  background-position: center;
   color: white;
 }
 

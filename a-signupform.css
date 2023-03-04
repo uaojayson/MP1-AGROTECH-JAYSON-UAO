@@ -1,9 +1,11 @@
 /* ------------Universal Formal----------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body,
@@ -15,59 +17,110 @@ html {
 
 /* -- Navigation Area-- */
 .navbar {
-  font-family: "Roboto", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  background-color: #172e08;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 .navbar-brand {
-  font-size: 19px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
   transition: 0.5s;
+  color: #5edb12;
 }
 
 .navbar-brand:hover {
-  font-size: 22px;
+  font-size: 19px;
+}
+
+.logo {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
   font-weight: bold;
+  transition: 0.5s;
+  color: #5edb12;
+}
+
+.logo:hover {
+  font-size: 19px;
+  color: #5edb12;
 }
 
 .dropdown-toggle {
-  font-size: 17px;
+  font-size: 15px;
   transition: 0.5s;
 }
 
 .dropdown-toggle:hover {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: rgb(15, 24, 153);
+  background-color: #0e341c;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   min-width: 20vh;
-  box-shadow: 0px 8px 16px 0px rgba(4, 122, 49, 0.2);
 }
 .dropdown-item {
   color: #f8faf8;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: 13px;
   transition: 0.5s;
 }
 
 .dropdown-item:hover {
-  font-size: 17px;
-  color: #055f18;
+  font-size: 14px;
+  color: white;
+  background-color: #454645;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
+.access-btn {
+  background-color: #0e341c;
+}
+
+.access-btn:hover {
+  background-color: #0e341c;
+}
+
+.get-in {
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+.get-in:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+}
 /* ------------Sign Up Form----------- */
 .signup-page {
   margin-top: 6%;
-  background-image: url(images/plain-bg-8.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: #0e341c;
   padding: 2% 15%;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 0px 8px 16px 0px rgba(65, 129, 90, 0.2);
-  opacity: 1;
+  opacity: 0.95;
 }
 
 .title {
@@ -126,6 +179,10 @@ label {
 .btn-success {
   padding: 5% 20%;
   border-radius: 2%;
+  background-color: #006400;
+}
+.btn-success:hover {
+  background-color: #006400;
 }
 
 .register {
@@ -162,11 +219,11 @@ label {
 .calltoaction-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
-  margin-top: 0.1%;
-  background-image: url(images/plain-bg-5.jpg);
+  margin-top: 2%;
+  background-color: #454645;
   background-size: cover;
-  padding: -3% 3%;
+  padding: 0% 3%;
+  opacity: 0.95;
 }
 
 .jumbotron {
@@ -176,17 +233,36 @@ label {
 }
 
 .h1 {
-  font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
 }
 
 .lead {
   font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
+}
+
+.btn-info {
+  background-color: #006400;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  transition: 0.5s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.btn-info:hover {
+  background-color: #006400;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* -----FOOTER--- */
@@ -195,7 +271,7 @@ label {
   min-width: 100vw;
   min-height: 100%;
   margin-top: -0.98%;
-  background-image: url(images/navbar2.jpg);
+  background-color: #172e08;
   background-size: cover;
   background-position: center;
   padding: 2% 2%;
@@ -203,37 +279,19 @@ label {
 }
 
 .foot-note {
-  border: "solid white";
   text-align: right;
   margin-top: 0.5%;
 }
 
 .foot-note-2 {
-  line-height: 0.5;
+  line-height: 0.6;
 }
 
 .f-title {
   text-align: right;
-  font-weight: bold;
-  font-size: 18px;
-  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
-}
-
-.ft {
-  text-align: right;
-  font-size: 13px;
-  color: white;
-}
-
-a {
-  color: white;
-  font-size: 14px;
-  transition: 0.5s;
-}
-
-a:hover {
-  color: white;
   font-size: 15px;
+  text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
+  font-weight: bold;
 }
 
 .end-btn {
@@ -243,28 +301,51 @@ a:hover {
 }
 
 .end-btn:hover {
-  font-size: 22px;
+  font-size: 21px;
 }
 
-.terms-1 {
+.ft-link {
+  text-align: right;
+  font-size: 14px;
   color: white;
-  font-weight: bold;
   transition: 0.5s;
-  font-size: 16px;
 }
 
-.terms-1:hover {
-  font-size: larger;
+.ft-link:hover {
+  text-align: right;
+  font-size: 15px;
   color: white;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.terms:hover {
+  color: white;
+  font-size: 15px;
 }
 
 .social-icons {
-  font-size: 17px;
+  font-size: 20px;
   transition: 0.5s;
 }
 
 .social-icons:hover {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+a {
+  color: white;
+  transition: 0.5s;
+} /* ALL LINKS */
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
 }
 
 /* Responsive layout */

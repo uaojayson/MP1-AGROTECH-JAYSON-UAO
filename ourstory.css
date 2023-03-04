@@ -351,33 +351,21 @@ a:hover {
 }
 
 .foot-note {
-  border: "solid white";
-
   text-align: right;
   margin-top: 0.5%;
 }
 
 .foot-note-2 {
-  line-height: 0.7;
+  line-height: 0.6;
 }
 
 .f-title {
   text-align: right;
-  font-size: 17px;
+  font-size: 15px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   font-weight: bold;
 }
 
-.ft {
-  text-align: right;
-  font-size: 14px;
-  transition: 0.5s;
-}
-
-.ft:hover {
-  text-align: right;
-  font-size: 15px;
-}
 
 .end-btn {
   font-size: 20px;
@@ -404,12 +392,12 @@ a:hover {
 
 .terms {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .terms:hover {
   color: rgb(208, 221, 216);
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .social-icons {

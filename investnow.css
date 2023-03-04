@@ -361,7 +361,7 @@ a:hover {
   padding-top: 15%;
   padding-left: 1%;
   padding-right: 1%;
-  background-color: rgb(8, 122, 52);
+  background-color: #0e341c;
   color: rgb(255, 255, 255);
   transform: rotateY(180deg);
 }

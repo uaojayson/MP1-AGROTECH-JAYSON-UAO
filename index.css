@@ -744,8 +744,7 @@ h1 i {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
-  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
-    10px 10px 15px rgba(70, 70, 70, 0.12);
+  box-shadow: 3px 4px 7px rgba(5, 131, 163, 0.8);
 }
 
 .lead {

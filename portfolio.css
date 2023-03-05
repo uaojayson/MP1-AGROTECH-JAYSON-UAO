@@ -110,19 +110,6 @@ html {
   color: #5edb12;
 }
 
-a {
-  color: white;
-  transition: 0.5s;
-}
-
-a:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 17px;
-  text-decoration: none;
-}
-
 /* -- Title Page-- */
 
 .title {
@@ -152,23 +139,14 @@ a:hover {
   font-family: "Montserrat", sans-serif;
 }
 
-.tag bold {
-  font-size: 35px;
-  font-weight: 1000;
-  font-family: "Maven Pro", sans-serif;
-  text-shadow: 3px 4px 7px rgba(4, 105, 131, 0.8);
-}
-
 .tag strong {
-  color: white;
   font-size: 45px;
-  font-weight: 400px;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 600px;
 }
 
 .slogan {
   padding-top: -1%;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 20px;
   text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
 }
@@ -178,12 +156,8 @@ a:hover {
 .project-page {
   min-width: 100vw;
   min-height: 100%;
-  border: "solid green";
   margin-top: 0%;
-  background-size: cover;
-  background-color: center;
   color: #ffffff;
-  opacity: 0.95;
 }
 
 .project-title-page {
@@ -224,6 +198,7 @@ a:hover {
 .project-name {
   padding-top: 3%;
   font-weight: bold;
+  color: #5edb12;
 }
 
 .project-content {
@@ -231,11 +206,11 @@ a:hover {
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .project-tag {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -244,8 +219,6 @@ a:hover {
   border: #006400;
   border-radius: 2%;
   padding: 1% 1.5%;
-  font-size: 20px;
-  font-weight: bold;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
   transition: 0.5s;
 }
@@ -269,8 +242,9 @@ a:hover {
   min-height: 100%;
   min-width: 100vw;
   background-color: #0e341c;
-  opacity: 0.9;
   padding-bottom: 2%;
+  opacity: 0.95;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 .card-img-top {
   height: 30%;
@@ -280,8 +254,9 @@ a:hover {
 .card {
   min-height: 100%;
   margin-bottom: 3%;
-  background-color: #454645;
-  opacity: 0.95;
+  background-color: #4f524f;
+  opacity: 0.9;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 .news {
@@ -314,10 +289,9 @@ a:hover {
 }
 
 .h1 {
-  font-size: 48px;
+  font-size: 45px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
     10px 10px 15px rgba(70, 70, 70, 0.12);
 }
@@ -326,12 +300,11 @@ a:hover {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
 }
 
 .btn-info {
   background-color: #006400;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   transition: 0.5s;
@@ -340,7 +313,7 @@ a:hover {
 
 .btn-info:hover {
   background-color: #006400;
-  font-size: 27px;
+  font-size: 22px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
@@ -353,8 +326,6 @@ a:hover {
   min-height: 100%;
   margin-top: -0.98%;
   background-color: #172e08;
-  background-size: cover;
-  background-position: center;
   padding: 2% 2%;
   color: white;
 }
@@ -375,16 +346,6 @@ a:hover {
   font-weight: bold;
 }
 
-.end-btn {
-  font-size: 20px;
-  transition: 0.5s;
-  font-weight: bold;
-}
-
-.end-btn:hover {
-  font-size: 21px;
-}
-
 .ft-link {
   text-align: right;
   font-size: 14px;
@@ -398,6 +359,18 @@ a:hover {
   color: white;
 }
 
+.end-btn {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 21px;
+}
+
 .terms {
   font-weight: 600;
   font-size: 15px;
@@ -409,12 +382,12 @@ a:hover {
 }
 
 .social-icons {
-  font-size: 20px;
+  font-size: 18px;
   transition: 0.5s;
 }
 
 .social-icons:hover {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 a {
@@ -450,24 +423,18 @@ a:hover {
 
   .tag {
     color: white;
-    text-shadow: 0.03em 0 green, 0 0.03em green, -0.03em 0 green,
-      0 -0.03em green, -0.03em -0.03em green, -0.03em 0.03em green,
-      0.03em -0.03em green, 0.03em 0.03em green;
   }
 
   .tag strong {
     color: white;
     font-size: 40px;
     font-weight: 600px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .slogan {
     padding-top: -1%;
     font-weight: 800;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 3px 4px 7px rgba(4, 102, 33, 0.8);
   }
 
   .project-title-page {
@@ -475,7 +442,6 @@ a:hover {
     margin-bottom: 1%;
     font-size: 35px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
     padding-top: 2%;
   }
@@ -514,11 +480,11 @@ a:hover {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .project-tag {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
   }
 
@@ -527,10 +493,8 @@ a:hover {
     border: #026122;
     border-radius: 2%;
     padding: 1% 1.5%;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: Verdana;
-
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
     transition: 0.5s;
   }
@@ -564,11 +528,11 @@ a:hover {
 
   .card-title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .card-text {
-    font-size: 9px;
+    font-size: 12px;
     text-align: justify;
   }
 

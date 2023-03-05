@@ -22,23 +22,12 @@ html {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
-.navbar-brand {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  transition: 0.5s;
-  color: #5edb12;
-}
-
-.navbar-brand:hover {
-  font-size: 19px;
-}
 
 .logo {
   font-family: "Maven Pro", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  transition: 0.5s;
+  transition: 0.3s;
   color: #5edb12;
 }
 
@@ -67,7 +56,7 @@ html {
 .dropdown-item {
   color: #f8faf8;
   font-size: 13px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .dropdown-item:hover {
@@ -88,7 +77,7 @@ html {
 
 .get-in {
   color: white;
-  transition: 0.5s;
+  transition: 0.3s;
   font-size: 15px;
 }
 
@@ -108,19 +97,6 @@ html {
 .angle-down:hover {
   font-size: 45px;
   color: #5edb12;
-}
-
-a {
-  color: white;
-  transition: 0.5s;
-}
-
-a:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 17px;
-  text-decoration: none;
 }
 
 /* -- Introduction Title-- */
@@ -283,14 +259,14 @@ h1 i {
 
 .text-muted {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 18px;
   color: #454645;
 }
 
 .row .about-us-values {
   font-weight: bold;
   margin-top: 0%;
-  font-size: 48px;
+  font-size: 45px;
   color: #ddf0f1;
   padding-top: 0.75%;
   padding-bottom: 2%;
@@ -357,7 +333,7 @@ h1 i {
 .story-end-tag {
   padding-top: 1%;
   color: rgb(252, 252, 252);
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(2, 66, 5, 0.8);
 }
@@ -437,7 +413,7 @@ h1 i {
 .usellpro-title {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -504,7 +480,7 @@ h1 i {
 .heading {
   text-align: center;
   color: #454343;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   position: relative;
   margin-bottom: 70px;
@@ -764,7 +740,7 @@ h1 i {
 }
 
 .h1 {
-  font-size: 48px;
+  font-size: 45px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(5, 117, 80, 0.8);
@@ -781,7 +757,7 @@ h1 i {
 
 .btn-info {
   background-color: #006400;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   transition: 0.5s;
@@ -790,7 +766,7 @@ h1 i {
 
 .btn-info:hover {
   background-color: #006400;
-  font-size: 27px;
+  font-size: 22px;
   font-weight: bold;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
@@ -822,20 +798,45 @@ h1 i {
 
 .f-title {
   text-align: right;
-  font-size: 17px;
+  font-size: 15px;
   text-shadow: 3px 4px 7px rgba(6, 31, 22, 0.8);
   font-weight: bold;
 }
 
-.ft {
+.ft-link {
   text-align: right;
   font-size: 14px;
+  color: white;
   transition: 0.5s;
 }
 
-.ft:hover {
+.ft-link:hover {
   text-align: right;
   font-size: 15px;
+  color: white;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  transition: 0.1;
+}
+
+.terms:hover {
+  color: white;
+  font-size: 16px;
+}
+
+.social-icons {
+  font-size: 18px;
+  transition: 0.1s;
+  color: white;
+}
+
+.social-icons:hover {
+  font-size: 20px;
+  color: white;
 }
 
 .end-btn {

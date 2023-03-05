@@ -230,6 +230,7 @@ html {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .layer a {
@@ -274,6 +275,7 @@ html {
 }
 
 .steps-body {
+  font-family: "Maven Pro", sans-serif;
   padding-top: 3%;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
 }
@@ -425,10 +427,12 @@ html {
   font-size: 20px;
   transition: 0.5s;
   font-weight: bold;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .end-btn:hover {
   font-size: 21px;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .ft-link {
@@ -447,32 +451,23 @@ html {
 .terms {
   font-weight: 600;
   font-size: 15px;
+  color: white;
 }
 
 .terms:hover {
-  color: rgb(208, 221, 216);
+  color: white;
   font-size: 16px;
 }
 
 .social-icons {
+  color: white;
   font-size: 20px;
   transition: 0.5s;
 }
 
 .social-icons:hover {
   font-size: 22px;
-}
-
-a {
   color: white;
-  transition: 0.5s;
-} /* ALL LINKS */
-
-a:hover {
-  font-weight: 100px;
-  border-color: #fff;
-  color: #fff;
-  font-size: 19px;
 }
 
 /* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */

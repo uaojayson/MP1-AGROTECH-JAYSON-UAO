@@ -120,7 +120,8 @@ html {
   background-color: #0e341c;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  opacity: 0.85;
+  opacity: 0.75;
+  width: 45%;
 }
 
 .tag {

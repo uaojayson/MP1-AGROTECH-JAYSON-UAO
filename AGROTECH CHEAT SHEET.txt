@@ -1,0 +1,161 @@
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7); 
+
+box-shadow: 3px 4px 7px rgba(5, 131, 163, 0.8);
+(Light Blue Box Shadow)
+
+Driving innovation, powering change: Together, we're growing a better future
+
+DRIVING INNOVATION, POWERING CHANGE
+TOGETHER, WE ARE GROWING A BETTER FUTURE
+
+
+"Seeding the future of sustainable agriculture"
+
+"Investing in the future of sustainable agriculture"
+
+
+/* ------------MEDIA - DEVICES COMPATIBILITY (NEEDS TO EDIT)----------- */
+
+/* Responsive layout  */
+@media screen and (max-width: 600px) {
+  .usellpro-content {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+@media only screen and (max-width: 575px) { /* styles for small phones */ }
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { /* styles for large phones and portrait tablets */ }
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { /* styles for landscape tablets and small laptops */ }
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) { /* styles for medium laptops and desktops */ }
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) { /* styles for large laptops and desktops */ }
+@media only screen and (min-width: 1400px) and (max-width: 1919.98px) { /* styles for extra large desktops */ }
+@media only screen and (min-width: 1920px) { /* styles for very large desktops */ }
+
+
+ <div class="w-100 d-none d-md-block d-lg-none"><!-- wrap every 3 on md--></div>
+
+  <div class="w-100 d-none d-sm-block d-md-none"><!-- wrap every 2 on sm--></div>
+
+ box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5), 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+
+
+>>>>DELETE<<<<<<<<
+
+.btn {
+  font-weight: 100px;
+  border-color: #d6ecdb;
+  color: #edf3ee;
+  background-color: #0baa13;
+  font-size: 17px;
+  transition: 0.5s;
+} /* This will affect LOG-IN and SIGN-UP*/
+
+.btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+>>>>>>>add this to class LOG-IN Button
+.access-btn {
+  color: white;
+  transition: 0.5s;
+}
+
+.access-btn:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
+}
+
+
+______________________________SOCIAL ICONS LOGO
+
+a {
+  color: white;
+  transition: 0.5s;
+} /* ALL LINKS */
+
+a:hover {
+  font-weight: 100px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 19px;
+}
+______________________________this is the format for the QUICK LINKS
+
+
+.ft-link {
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  transition: 0.5s;
+}
+
+.ft-link:hover {
+  text-align: right;
+  font-size: 15px;
+  color: white;
+}
+
+
+-------------------------format for terms
+
+.terms {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.terms:hover {
+  color: rgb(208, 221, 216);
+  font-size: 17px;
+}
+
+___________________SOCIAL ICONS
+
+.social-icons {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.social-icons:hover {
+  font-size: 22px;
+}
+
+_______________________
+
+for agrotech logo
+
+.end-btn {
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.end-btn:hover {
+  font-size: 22px;
+}
+
+
+_________________________
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+
+___________________________________
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+_____________________________
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@700&family=Open+Sans&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+</style>
